@@ -1,0 +1,4 @@
+(sym_lib_table
+  (lib (name PIC18F45K22_CPUBOARD_V21-rescue)(type Legacy)(uri ${KIPRJMOD}/PIC18F45K22_CPUBOARD_V21-rescue.lib)(options "")(descr ""))
+  (lib (name mylib)(type Legacy)(uri ${KIPRJMOD}/mylib.lib)(options "")(descr ""))
+)

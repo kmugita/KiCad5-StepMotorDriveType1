@@ -1,0 +1,1430 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="D">
+  <design>
+    <source>D:/job/monozukuri/PCB/PIC18F45K22_v2.1/PIC18F45K22_CPUBOARD_V21.sch</source>
+    <date>2017/01/17 11:01:01</date>
+    <tool>Eeschema 4.0.4-stable</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title>PIC18F45K22 Control Board</title>
+        <company>(c) JSD</company>
+        <rev>2.1</rev>
+        <date>2016-09-16</date>
+        <source>PIC18F45K22_CPUBOARD_V21.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="U1">
+      <value>PIC18F45K22-I/P</value>
+      <footprint>MyFootprints:DIP-40_W15.24mm_LongPads_withSocket</footprint>
+      <fields>
+        <field name="部品名">PIC18F45K22-I/P</field>
+        <field name="価格">327</field>
+      </fields>
+      <libsource lib="mylib" part="PIC18F45K22-I/P"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5753E739</tstamp>
+    </comp>
+    <comp ref="RA0">
+      <value>LED</value>
+      <footprint>LEDs:LED-3-S</footprint>
+      <fields>
+        <field name="部品名">3mm緑 LED</field>
+      </fields>
+      <libsource lib="PIC18F45K22_CPUBOARD-rescue" part="LED-RESCUE-PIC18F45K22_CPUBOARD"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5753E80D</tstamp>
+    </comp>
+    <comp ref="CN2">
+      <value>CONN_5X2</value>
+      <footprint>Connect:IDC_Header_Straight_10pins</footprint>
+      <fields>
+        <field name="部品名">302-S101</field>
+      </fields>
+      <libsource lib="conn" part="CONN_02X05"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5753E87E</tstamp>
+    </comp>
+    <comp ref="CN3">
+      <value>CONN_5X2</value>
+      <footprint>Connect:IDC_Header_Straight_10pins</footprint>
+      <fields>
+        <field name="部品名">302-S101</field>
+      </fields>
+      <libsource lib="conn" part="CONN_02X05"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5753E963</tstamp>
+    </comp>
+    <comp ref="CN1">
+      <value>CONN_5</value>
+      <footprint>Connectors_JST:JST_EH_B05B-EH-A_05x2.50mm_Straight</footprint>
+      <fields>
+        <field name="部品名">B5B-XH-A(LF)(SN)</field>
+      </fields>
+      <libsource lib="conn" part="CONN_01X05"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5753E99A</tstamp>
+    </comp>
+    <comp ref="RA1">
+      <value>LED</value>
+      <footprint>LEDs:LED-3-S</footprint>
+      <fields>
+        <field name="部品名">3mm緑 LED</field>
+      </fields>
+      <libsource lib="PIC18F45K22_CPUBOARD-rescue" part="LED-RESCUE-PIC18F45K22_CPUBOARD"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5753F364</tstamp>
+    </comp>
+    <comp ref="RA2">
+      <value>LED</value>
+      <footprint>LEDs:LED-3-S</footprint>
+      <fields>
+        <field name="部品名">3mm緑 LED</field>
+      </fields>
+      <libsource lib="PIC18F45K22_CPUBOARD-rescue" part="LED-RESCUE-PIC18F45K22_CPUBOARD"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5753F406</tstamp>
+    </comp>
+    <comp ref="RA3">
+      <value>LED</value>
+      <footprint>LEDs:LED-3-S</footprint>
+      <fields>
+        <field name="部品名">3mm緑 LED</field>
+      </fields>
+      <libsource lib="PIC18F45K22_CPUBOARD-rescue" part="LED-RESCUE-PIC18F45K22_CPUBOARD"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5753F412</tstamp>
+    </comp>
+    <comp ref="RA4">
+      <value>LED</value>
+      <footprint>LEDs:LED-3-S</footprint>
+      <fields>
+        <field name="部品名">3mm緑 LED</field>
+      </fields>
+      <libsource lib="PIC18F45K22_CPUBOARD-rescue" part="LED-RESCUE-PIC18F45K22_CPUBOARD"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5753FA56</tstamp>
+    </comp>
+    <comp ref="RA5">
+      <value>LED</value>
+      <footprint>LEDs:LED-3-S</footprint>
+      <fields>
+        <field name="部品名">3mm緑 LED</field>
+      </fields>
+      <libsource lib="PIC18F45K22_CPUBOARD-rescue" part="LED-RESCUE-PIC18F45K22_CPUBOARD"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5753FA62</tstamp>
+    </comp>
+    <comp ref="RA6">
+      <value>LED</value>
+      <footprint>LEDs:LED-3-S</footprint>
+      <fields>
+        <field name="部品名">3mm緑 LED</field>
+      </fields>
+      <libsource lib="PIC18F45K22_CPUBOARD-rescue" part="LED-RESCUE-PIC18F45K22_CPUBOARD"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5753FA6E</tstamp>
+    </comp>
+    <comp ref="RA7">
+      <value>LED</value>
+      <footprint>LEDs:LED-3-S</footprint>
+      <fields>
+        <field name="部品名">3mm緑 LED</field>
+      </fields>
+      <libsource lib="PIC18F45K22_CPUBOARD-rescue" part="LED-RESCUE-PIC18F45K22_CPUBOARD"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5753FA7A</tstamp>
+    </comp>
+    <comp ref="RB0">
+      <value>LED</value>
+      <footprint>LEDs:LED-3-S</footprint>
+      <fields>
+        <field name="部品名">3mm緑 LED</field>
+      </fields>
+      <libsource lib="PIC18F45K22_CPUBOARD-rescue" part="LED-RESCUE-PIC18F45K22_CPUBOARD"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5753FC84</tstamp>
+    </comp>
+    <comp ref="RB1">
+      <value>LED</value>
+      <footprint>LEDs:LED-3-S</footprint>
+      <fields>
+        <field name="部品名">3mm緑 LED</field>
+      </fields>
+      <libsource lib="PIC18F45K22_CPUBOARD-rescue" part="LED-RESCUE-PIC18F45K22_CPUBOARD"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5753FC90</tstamp>
+    </comp>
+    <comp ref="RB2">
+      <value>LED</value>
+      <footprint>LEDs:LED-3-S</footprint>
+      <fields>
+        <field name="部品名">3mm緑 LED</field>
+      </fields>
+      <libsource lib="PIC18F45K22_CPUBOARD-rescue" part="LED-RESCUE-PIC18F45K22_CPUBOARD"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5753FC9C</tstamp>
+    </comp>
+    <comp ref="RB3">
+      <value>LED</value>
+      <footprint>LEDs:LED-3-S</footprint>
+      <fields>
+        <field name="部品名">3mm緑 LED</field>
+      </fields>
+      <libsource lib="PIC18F45K22_CPUBOARD-rescue" part="LED-RESCUE-PIC18F45K22_CPUBOARD"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5753FCA8</tstamp>
+    </comp>
+    <comp ref="RB4">
+      <value>LED</value>
+      <footprint>LEDs:LED-3-S</footprint>
+      <fields>
+        <field name="部品名">3mm緑 LED</field>
+      </fields>
+      <libsource lib="PIC18F45K22_CPUBOARD-rescue" part="LED-RESCUE-PIC18F45K22_CPUBOARD"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5753FCB8</tstamp>
+    </comp>
+    <comp ref="RB5">
+      <value>LED</value>
+      <footprint>LEDs:LED-3-S</footprint>
+      <fields>
+        <field name="部品名">3mm緑 LED</field>
+      </fields>
+      <libsource lib="PIC18F45K22_CPUBOARD-rescue" part="LED-RESCUE-PIC18F45K22_CPUBOARD"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5753FCC4</tstamp>
+    </comp>
+    <comp ref="RD0">
+      <value>LED</value>
+      <footprint>LEDs:LED-3-S</footprint>
+      <fields>
+        <field name="部品名">3mm緑 LED</field>
+      </fields>
+      <libsource lib="PIC18F45K22_CPUBOARD-rescue" part="LED-RESCUE-PIC18F45K22_CPUBOARD"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5753FCD0</tstamp>
+    </comp>
+    <comp ref="RD1">
+      <value>LED</value>
+      <footprint>LEDs:LED-3-S</footprint>
+      <fields>
+        <field name="部品名">3mm緑 LED</field>
+      </fields>
+      <libsource lib="PIC18F45K22_CPUBOARD-rescue" part="LED-RESCUE-PIC18F45K22_CPUBOARD"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5753FCDC</tstamp>
+    </comp>
+    <comp ref="RD2">
+      <value>LED</value>
+      <footprint>LEDs:LED-3-S</footprint>
+      <fields>
+        <field name="部品名">3mm緑 LED</field>
+      </fields>
+      <libsource lib="PIC18F45K22_CPUBOARD-rescue" part="LED-RESCUE-PIC18F45K22_CPUBOARD"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>57540E57</tstamp>
+    </comp>
+    <comp ref="RD3">
+      <value>LED</value>
+      <footprint>LEDs:LED-3-S</footprint>
+      <fields>
+        <field name="部品名">3mm緑 LED</field>
+      </fields>
+      <libsource lib="PIC18F45K22_CPUBOARD-rescue" part="LED-RESCUE-PIC18F45K22_CPUBOARD"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>57540E63</tstamp>
+    </comp>
+    <comp ref="R30">
+      <value>4.7K</value>
+      <footprint>Resistors_ThroughHole:Resistor_Vertical_RM2.5mm</footprint>
+      <fields>
+        <field name="部品名">3</field>
+      </fields>
+      <libsource lib="PIC18F45K22_CPUBOARD-rescue" part="R-RESCUE-PIC18F45K22_CPUBOARD"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>57540E69</tstamp>
+    </comp>
+    <comp ref="RD4">
+      <value>LED</value>
+      <footprint>LEDs:LED-3-S</footprint>
+      <fields>
+        <field name="部品名">3mm緑 LED</field>
+      </fields>
+      <libsource lib="PIC18F45K22_CPUBOARD-rescue" part="LED-RESCUE-PIC18F45K22_CPUBOARD"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>57540E6F</tstamp>
+    </comp>
+    <comp ref="RD5">
+      <value>LED</value>
+      <footprint>LEDs:LED-3-S</footprint>
+      <fields>
+        <field name="部品名">3mm緑 LED</field>
+      </fields>
+      <libsource lib="PIC18F45K22_CPUBOARD-rescue" part="LED-RESCUE-PIC18F45K22_CPUBOARD"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>57540E7B</tstamp>
+    </comp>
+    <comp ref="RE0">
+      <value>LED</value>
+      <footprint>LEDs:LED-3-S</footprint>
+      <fields>
+        <field name="部品名">3mm緑 LED</field>
+      </fields>
+      <libsource lib="PIC18F45K22_CPUBOARD-rescue" part="LED-RESCUE-PIC18F45K22_CPUBOARD"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>57540E8B</tstamp>
+    </comp>
+    <comp ref="RE1">
+      <value>LED</value>
+      <footprint>LEDs:LED-3-S</footprint>
+      <fields>
+        <field name="部品名">3mm緑 LED</field>
+      </fields>
+      <libsource lib="PIC18F45K22_CPUBOARD-rescue" part="LED-RESCUE-PIC18F45K22_CPUBOARD"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>57540E97</tstamp>
+    </comp>
+    <comp ref="RE2">
+      <value>LED</value>
+      <footprint>LEDs:LED-3-S</footprint>
+      <fields>
+        <field name="部品名">3mm緑 LED</field>
+      </fields>
+      <libsource lib="PIC18F45K22_CPUBOARD-rescue" part="LED-RESCUE-PIC18F45K22_CPUBOARD"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>57540EA3</tstamp>
+    </comp>
+    <comp ref="R1">
+      <value>4.7K</value>
+      <footprint>Resistors_ThroughHole:Resistor_Vertical_RM2.5mm</footprint>
+      <fields>
+        <field name="部品名">1/6W抵抗 4.7K</field>
+        <field name="価格">1</field>
+      </fields>
+      <libsource lib="PIC18F45K22_CPUBOARD-rescue" part="R-RESCUE-PIC18F45K22_CPUBOARD"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>57540EB9</tstamp>
+    </comp>
+    <comp ref="RC7">
+      <value>LED</value>
+      <footprint>LEDs:LED-3-S</footprint>
+      <fields>
+        <field name="部品名">3mm緑 LED</field>
+      </fields>
+      <libsource lib="PIC18F45K22_CPUBOARD-rescue" part="LED-RESCUE-PIC18F45K22_CPUBOARD"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>57540EBF</tstamp>
+    </comp>
+    <comp ref="RC6">
+      <value>LED</value>
+      <footprint>LEDs:LED-3-S</footprint>
+      <fields>
+        <field name="部品名">3mm緑 LED</field>
+      </fields>
+      <libsource lib="PIC18F45K22_CPUBOARD-rescue" part="LED-RESCUE-PIC18F45K22_CPUBOARD"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>57540ECB</tstamp>
+    </comp>
+    <comp ref="RC5">
+      <value>LED</value>
+      <footprint>LEDs:LED-3-S</footprint>
+      <fields>
+        <field name="部品名">3mm緑 LED</field>
+      </fields>
+      <libsource lib="PIC18F45K22_CPUBOARD-rescue" part="LED-RESCUE-PIC18F45K22_CPUBOARD"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>57540ED7</tstamp>
+    </comp>
+    <comp ref="RC4">
+      <value>LED</value>
+      <footprint>LEDs:LED-3-S</footprint>
+      <fields>
+        <field name="部品名">3mm緑 LED</field>
+      </fields>
+      <libsource lib="PIC18F45K22_CPUBOARD-rescue" part="LED-RESCUE-PIC18F45K22_CPUBOARD"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>57540EE3</tstamp>
+    </comp>
+    <comp ref="RC3">
+      <value>LED</value>
+      <footprint>LEDs:LED-3-S</footprint>
+      <fields>
+        <field name="部品名">3mm緑 LED</field>
+      </fields>
+      <libsource lib="PIC18F45K22_CPUBOARD-rescue" part="LED-RESCUE-PIC18F45K22_CPUBOARD"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>57540EF3</tstamp>
+    </comp>
+    <comp ref="RC2">
+      <value>LED</value>
+      <footprint>LEDs:LED-3-S</footprint>
+      <fields>
+        <field name="部品名">3mm緑 LED</field>
+      </fields>
+      <libsource lib="PIC18F45K22_CPUBOARD-rescue" part="LED-RESCUE-PIC18F45K22_CPUBOARD"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>57540EFF</tstamp>
+    </comp>
+    <comp ref="RC1">
+      <value>LED</value>
+      <footprint>LEDs:LED-3-S</footprint>
+      <fields>
+        <field name="部品名">3mm緑 LED</field>
+      </fields>
+      <libsource lib="PIC18F45K22_CPUBOARD-rescue" part="LED-RESCUE-PIC18F45K22_CPUBOARD"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>57540F0B</tstamp>
+    </comp>
+    <comp ref="RC0">
+      <value>LED</value>
+      <footprint>LEDs:LED-3-S</footprint>
+      <fields>
+        <field name="部品名">3mm緑 LED</field>
+      </fields>
+      <libsource lib="PIC18F45K22_CPUBOARD-rescue" part="LED-RESCUE-PIC18F45K22_CPUBOARD"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>57540F17</tstamp>
+    </comp>
+    <comp ref="U2">
+      <value>FT231XS</value>
+      <footprint>Housings_SSOP:SSOP-20_4.4x8.6mm_Pitch0.635mm</footprint>
+      <fields>
+        <field name="部品名">FT231XS-R （秋月）</field>
+      </fields>
+      <libsource lib="mylib" part="FT231XS"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>57542CAD</tstamp>
+    </comp>
+    <comp ref="J1">
+      <value>USB_MiniB</value>
+      <footprint>MyFootprints:USB_Mini-B_MUSB-5BF01AS</footprint>
+      <fields>
+        <field name="部品名">MUSB-5BF01AS （秋月）</field>
+      </fields>
+      <libsource lib="mylib" part="USB_MiniB"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>575436CE</tstamp>
+    </comp>
+    <comp ref="J2">
+      <value>con_PicKit3</value>
+      <footprint>Pin_Headers:Pin_Header_Angled_1x06_R</footprint>
+      <fields>
+        <field name="部品名">ピンヘッダ（L型）1x6</field>
+        <field name="価格">20</field>
+      </fields>
+      <libsource lib="mylib" part="con_PicKit3"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>57543807</tstamp>
+    </comp>
+    <comp ref="R2">
+      <value>27</value>
+      <footprint>Resistors_SMD:R_0603_HandSoldering</footprint>
+      <fields>
+        <field name="部品名">27 チップ抵抗 1608</field>
+      </fields>
+      <libsource lib="PIC18F45K22_CPUBOARD-rescue" part="R-RESCUE-PIC18F45K22_CPUBOARD"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>57544CBA</tstamp>
+    </comp>
+    <comp ref="R3">
+      <value>27</value>
+      <footprint>Resistors_SMD:R_0603_HandSoldering</footprint>
+      <fields>
+        <field name="部品名">27 チップ抵抗 1608</field>
+      </fields>
+      <libsource lib="PIC18F45K22_CPUBOARD-rescue" part="R-RESCUE-PIC18F45K22_CPUBOARD"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>57544CC0</tstamp>
+    </comp>
+    <comp ref="SW1">
+      <value>SWITCH_INV</value>
+      <footprint>MyFootprints:SW_2MS1-T1-B4-M2</footprint>
+      <fields>
+        <field name="部品名">2MS1-T1-B4-M2-Q-E （秋月）</field>
+      </fields>
+      <libsource lib="device" part="SWITCH_INV"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>57551F73</tstamp>
+    </comp>
+    <comp ref="F1">
+      <value>PTC</value>
+      <footprint>MyFootprints:PTC_RXEF050</footprint>
+      <fields>
+        <field name="部品名">RXEF050  （秋月）</field>
+      </fields>
+      <libsource lib="mylib" part="PTC"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5755213C</tstamp>
+    </comp>
+    <comp ref="C4">
+      <value>0.1u</value>
+      <footprint>Capacitors_SMD:C_0603_HandSoldering</footprint>
+      <fields>
+        <field name="部品名">104 チップ積セラ 1608</field>
+      </fields>
+      <libsource lib="device" part="C_Small"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>575522E3</tstamp>
+    </comp>
+    <comp ref="C5">
+      <value>0.1u</value>
+      <footprint>Capacitors_ThroughHole:C_Ceramic_P2.5</footprint>
+      <fields>
+        <field name="部品名">積セラDIP 0.1uF 2.5mmピッチ</field>
+      </fields>
+      <libsource lib="device" part="C_Small"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>575523E2</tstamp>
+    </comp>
+    <comp ref="C1">
+      <value>10u</value>
+      <footprint>Capacitors_ThroughHole:C_Ceramic_P5</footprint>
+      <fields>
+        <field name="部品名">積セラDIP 10uF 5mmピッチ</field>
+      </fields>
+      <libsource lib="device" part="C_Small"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>575822AD</tstamp>
+    </comp>
+    <comp ref="C3">
+      <value>10u</value>
+      <footprint>Capacitors_ThroughHole:C_Ceramic_P5</footprint>
+      <fields>
+        <field name="部品名">積セラDIP 10uF 5mmピッチ</field>
+      </fields>
+      <libsource lib="device" part="C_Small"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>57582ABE</tstamp>
+    </comp>
+    <comp ref="C6">
+      <value>0.1u</value>
+      <footprint>Capacitors_ThroughHole:C_Ceramic_P2.5</footprint>
+      <fields>
+        <field name="部品名">積セラDIP 0.1uF 2.5mmピッチ</field>
+      </fields>
+      <libsource lib="device" part="C_Small"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>57582BEA</tstamp>
+    </comp>
+    <comp ref="C7">
+      <value>0.1u</value>
+      <footprint>Capacitors_ThroughHole:C_Ceramic_P2.5</footprint>
+      <fields>
+        <field name="部品名">積セラDIP 0.1uF 2.5mmピッチ</field>
+      </fields>
+      <libsource lib="device" part="C_Small"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>57582CAA</tstamp>
+    </comp>
+    <comp ref="C8">
+      <value>0.1u</value>
+      <footprint>Capacitors_SMD:C_0603_HandSoldering</footprint>
+      <fields>
+        <field name="部品名">104 チップ積セラ 1608</field>
+      </fields>
+      <libsource lib="device" part="C_Small"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>57582CB0</tstamp>
+    </comp>
+    <comp ref="CN4">
+      <value>CONN_7X2</value>
+      <footprint>Connect:IDC_Header_Straight_14pins</footprint>
+      <fields>
+        <field name="部品名">302-S141</field>
+      </fields>
+      <libsource lib="conn" part="CONN_02X07"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5758C289</tstamp>
+    </comp>
+    <comp ref="BZ1">
+      <value>BUZZER</value>
+      <footprint>MyFootprints:Buzzer_12x6.9_Pitch5</footprint>
+      <fields>
+        <field name="部品名">PKM13EPYH4000-A0 （秋月）</field>
+      </fields>
+      <libsource lib="device" part="SPEAKER"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>57595A71</tstamp>
+    </comp>
+    <comp ref="SW2">
+      <value>P-03650</value>
+      <footprint>Buttons_Switches_ThroughHole:SW_TH_Tactile_P-036xx</footprint>
+      <fields>
+        <field name="部品名">押釦SW P-03650 （秋月）</field>
+      </fields>
+      <libsource lib="mylib" part="SW_B3F-10xx"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>57595C00</tstamp>
+    </comp>
+    <comp ref="C9">
+      <value>0.1u</value>
+      <footprint>Capacitors_ThroughHole:C_Ceramic_P2.5</footprint>
+      <fields>
+        <field name="部品名">積セラDIP 0.1uF 2.5mmピッチ</field>
+      </fields>
+      <libsource lib="device" part="C_Small"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>57596680</tstamp>
+    </comp>
+    <comp ref="RR1">
+      <value>4.7Kx8</value>
+      <footprint>Resistors_ThroughHole:Resistor_Array_SIP8</footprint>
+      <fields>
+        <field name="部品名">4.7K x 8 集合抵抗</field>
+      </fields>
+      <libsource lib="mylib" part="RR8"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>57FD21CC</tstamp>
+    </comp>
+    <comp ref="RR2">
+      <value>4.7Kx8</value>
+      <footprint>Resistors_ThroughHole:Resistor_Array_SIP8</footprint>
+      <fields>
+        <field name="部品名">4.7K x 8 集合抵抗</field>
+      </fields>
+      <libsource lib="mylib" part="RR8"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>57FD59F6</tstamp>
+    </comp>
+    <comp ref="RR4">
+      <value>4.7K x 4</value>
+      <footprint>Resistors_ThroughHole:Resistor_Array_SIP4</footprint>
+      <fields>
+        <field name="部品名">4.7K x 4 集合抵抗</field>
+      </fields>
+      <libsource lib="mylib" part="RR4"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>57FDC72D</tstamp>
+    </comp>
+    <comp ref="RR3">
+      <value>RR8-SEL</value>
+      <footprint>MyFootprints:Resistor_Array_SIP8-SEL</footprint>
+      <fields>
+        <field name="部品名">4.7K x 8 集合抵抗</field>
+      </fields>
+      <libsource lib="mylib" part="RR8-SEL"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>57FDD2DA</tstamp>
+    </comp>
+    <comp ref="RR5">
+      <value>RR4-SEL</value>
+      <footprint>Resistors_ThroughHole:Resistor_Array_SIP4-SEL</footprint>
+      <libsource lib="mylib" part="RR4-SEL"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>57FDD39B</tstamp>
+    </comp>
+    <comp ref="C2">
+      <value>10u</value>
+      <footprint>Capacitors_ThroughHole:C_Ceramic_P5</footprint>
+      <fields>
+        <field name="部品名">積セラDIP 10uF 5mmピッチ</field>
+      </fields>
+      <libsource lib="device" part="C_Small"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>575828BB</tstamp>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="conn" part="CONN_01X05">
+      <description>Connector, single row, 01x05</description>
+      <footprints>
+        <fp>Pin_Header_Straight_1X05</fp>
+        <fp>Pin_Header_Angled_1X05</fp>
+        <fp>Socket_Strip_Straight_1X05</fp>
+        <fp>Socket_Strip_Angled_1X05</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">P</field>
+        <field name="Value">CONN_01X05</field>
+      </fields>
+      <pins>
+        <pin num="1" name="P1" type="passive"/>
+        <pin num="2" name="P2" type="passive"/>
+        <pin num="3" name="P3" type="passive"/>
+        <pin num="4" name="P4" type="passive"/>
+        <pin num="5" name="P5" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="conn" part="CONN_02X05">
+      <description>Connector, double row, 02x05</description>
+      <footprints>
+        <fp>Pin_Header_Straight_2X05</fp>
+        <fp>Pin_Header_Angled_2X05</fp>
+        <fp>Socket_Strip_Straight_2X05</fp>
+        <fp>Socket_Strip_Angled_2X05</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">P</field>
+        <field name="Value">CONN_02X05</field>
+      </fields>
+      <pins>
+        <pin num="1" name="P1" type="passive"/>
+        <pin num="2" name="P2" type="passive"/>
+        <pin num="3" name="P3" type="passive"/>
+        <pin num="4" name="P4" type="passive"/>
+        <pin num="5" name="P5" type="passive"/>
+        <pin num="6" name="P6" type="passive"/>
+        <pin num="7" name="P7" type="passive"/>
+        <pin num="8" name="P8" type="passive"/>
+        <pin num="9" name="P9" type="passive"/>
+        <pin num="10" name="P10" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="conn" part="CONN_02X07">
+      <description>Connector, double row, 02x07</description>
+      <footprints>
+        <fp>Pin_Header_Straight_2X07</fp>
+        <fp>Pin_Header_Angled_2X07</fp>
+        <fp>Socket_Strip_Straight_2X07</fp>
+        <fp>Socket_Strip_Angled_2X07</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">P</field>
+        <field name="Value">CONN_02X07</field>
+      </fields>
+      <pins>
+        <pin num="1" name="P1" type="passive"/>
+        <pin num="2" name="P2" type="passive"/>
+        <pin num="3" name="P3" type="passive"/>
+        <pin num="4" name="P4" type="passive"/>
+        <pin num="5" name="P5" type="passive"/>
+        <pin num="6" name="P6" type="passive"/>
+        <pin num="7" name="P7" type="passive"/>
+        <pin num="8" name="P8" type="passive"/>
+        <pin num="9" name="P9" type="passive"/>
+        <pin num="10" name="P10" type="passive"/>
+        <pin num="11" name="P11" type="passive"/>
+        <pin num="12" name="P12" type="passive"/>
+        <pin num="13" name="P13" type="passive"/>
+        <pin num="14" name="P14" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="device" part="C_Small">
+      <description>Unpolarized capacitor</description>
+      <footprints>
+        <fp>C?</fp>
+        <fp>C_????_*</fp>
+        <fp>C_????</fp>
+        <fp>SMD*_c</fp>
+        <fp>Capacitor*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C_Small</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="mylib" part="FT231XS">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">FT231XS</field>
+      </fields>
+      <pins>
+        <pin num="1" name="DTR" type="output"/>
+        <pin num="2" name="RTS" type="output"/>
+        <pin num="3" name="VCCIO" type="input"/>
+        <pin num="4" name="RXD" type="input"/>
+        <pin num="5" name="RI" type="input"/>
+        <pin num="6" name="GND" type="power_in"/>
+        <pin num="7" name="DCR" type="input"/>
+        <pin num="8" name="DCD" type="input"/>
+        <pin num="9" name="CTS" type="input"/>
+        <pin num="10" name="CBUS2" type="BiDi"/>
+        <pin num="11" name="USBD+" type="BiDi"/>
+        <pin num="12" name="USBD-" type="BiDi"/>
+        <pin num="13" name="3V3OUT" type="input"/>
+        <pin num="14" name="RESET" type="input"/>
+        <pin num="15" name="VCC" type="power_in"/>
+        <pin num="16" name="GND" type="power_in"/>
+        <pin num="17" name="CBUS1" type="output"/>
+        <pin num="18" name="CBUS0" type="BiDi"/>
+        <pin num="19" name="CBUS3" type="BiDi"/>
+        <pin num="20" name="TXD" type="output"/>
+      </pins>
+    </libpart>
+    <libpart lib="PIC18F45K22_CPUBOARD-rescue" part="LED-RESCUE-PIC18F45K22_CPUBOARD">
+      <footprints>
+        <fp>LED-3MM</fp>
+        <fp>LED-5MM</fp>
+        <fp>LED-10MM</fp>
+        <fp>LED-0603</fp>
+        <fp>LED-0805</fp>
+        <fp>LED-1206</fp>
+        <fp>LEDV</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">LED-RESCUE-PIC18F45K22_CPUBOARD</field>
+      </fields>
+      <pins>
+        <pin num="1" name="A" type="passive"/>
+        <pin num="2" name="K" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="mylib" part="PIC18F45K22-I/P">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">PIC18F45K22-I/P</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~MCLR~/RE3" type="input"/>
+        <pin num="2" name="RA0/AN0" type="BiDi"/>
+        <pin num="3" name="RA1/AN1" type="BiDi"/>
+        <pin num="4" name="RA2/AN2/DA" type="BiDi"/>
+        <pin num="5" name="RA3/AN3/Vref+" type="BiDi"/>
+        <pin num="6" name="RA4/T0CK" type="BiDi"/>
+        <pin num="7" name="RA5/AN4/~SS1~" type="BiDi"/>
+        <pin num="8" name="RE0/P3A/CCP3/AN5" type="BiDi"/>
+        <pin num="9" name="RE1/P3B/AN6" type="BiDi"/>
+        <pin num="10" name="RE2/CCP5/AN7" type="BiDi"/>
+        <pin num="11" name="VDD" type="power_in"/>
+        <pin num="12" name="VSS" type="power_in"/>
+        <pin num="13" name="RA7/CLKI/OSC1" type="BiDi"/>
+        <pin num="14" name="RA6/CLKO/OSC2" type="BiDi"/>
+        <pin num="15" name="RC0/P2B/T3CK/T1CK" type="BiDi"/>
+        <pin num="16" name="RC1/P2A/CCP2" type="BiDi"/>
+        <pin num="17" name="RC2/P1A/CCP1/T5CK/AN14" type="BiDi"/>
+        <pin num="18" name="RC3/SCL1/AN15" type="BiDi"/>
+        <pin num="19" name="RD0/SCL2/AN20" type="BiDi"/>
+        <pin num="20" name="RD1/CCP4/SDI2/SDA2/AN21" type="BiDi"/>
+        <pin num="21" name="RD2/P2B/AN22" type="BiDi"/>
+        <pin num="22" name="RD3/P2C/~SS2~/AN23" type="BiDi"/>
+        <pin num="23" name="RC4/SDI1/SDA1/AN16" type="BiDi"/>
+        <pin num="24" name="RC5/SDO1/AN17" type="BiDi"/>
+        <pin num="25" name="RC6/TX1/AN18" type="BiDi"/>
+        <pin num="26" name="RC7/RX1/AN19" type="BiDi"/>
+        <pin num="27" name="RD4/P2D/SDO2/AN24" type="BiDi"/>
+        <pin num="28" name="RD5/P1B/AN25" type="BiDi"/>
+        <pin num="29" name="RD6/P1C/TX2/AN26" type="BiDi"/>
+        <pin num="30" name="RD7/P1D/RX2/AN27" type="BiDi"/>
+        <pin num="31" name="VSS" type="power_in"/>
+        <pin num="32" name="VDD" type="power_in"/>
+        <pin num="33" name="RB0/INT0/AN12" type="BiDi"/>
+        <pin num="34" name="RB1/INT1/AN10" type="BiDi"/>
+        <pin num="35" name="RB2/INT2/AN8" type="BiDi"/>
+        <pin num="36" name="RB3/P2A/CCP2/AN9" type="BiDi"/>
+        <pin num="37" name="RB4/P2A/CCP2/AN9" type="BiDi"/>
+        <pin num="38" name="RB5/P3A/T1G/AN13" type="BiDi"/>
+        <pin num="39" name="RB6/PGC" type="BiDi"/>
+        <pin num="40" name="RB7/PGD" type="BiDi"/>
+      </pins>
+    </libpart>
+    <libpart lib="mylib" part="PTC">
+      <fields>
+        <field name="Reference">F</field>
+        <field name="Value">PTC</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="input"/>
+        <pin num="2" name="~" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="PIC18F45K22_CPUBOARD-rescue" part="R-RESCUE-PIC18F45K22_CPUBOARD">
+      <footprints>
+        <fp>R?</fp>
+        <fp>SM0603</fp>
+        <fp>SM0805</fp>
+        <fp>R?-*</fp>
+        <fp>SM1206</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R-RESCUE-PIC18F45K22_CPUBOARD</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="mylib" part="RR4">
+      <description>4 resistors</description>
+      <fields>
+        <field name="Reference">RR</field>
+        <field name="Value">RR4</field>
+      </fields>
+      <pins>
+        <pin num="1" name="COM" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+        <pin num="3" name="3" type="passive"/>
+        <pin num="4" name="4" type="passive"/>
+        <pin num="5" name="5" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="mylib" part="RR4-SEL">
+      <description>4 resistors</description>
+      <fields>
+        <field name="Reference">RR</field>
+        <field name="Value">RR4-SEL</field>
+      </fields>
+      <pins>
+        <pin num="1" name="VCC-COM" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+        <pin num="3" name="3" type="passive"/>
+        <pin num="4" name="4" type="passive"/>
+        <pin num="5" name="5" type="passive"/>
+        <pin num="6" name="GND-COM" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="mylib" part="RR8">
+      <description>8 resistors</description>
+      <fields>
+        <field name="Reference">RR</field>
+        <field name="Value">RR8</field>
+      </fields>
+      <pins>
+        <pin num="1" name="COM" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+        <pin num="3" name="3" type="passive"/>
+        <pin num="4" name="4" type="passive"/>
+        <pin num="5" name="5" type="passive"/>
+        <pin num="6" name="6" type="passive"/>
+        <pin num="7" name="7" type="passive"/>
+        <pin num="8" name="8" type="passive"/>
+        <pin num="9" name="9" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="mylib" part="RR8-SEL">
+      <description>8 resistors</description>
+      <fields>
+        <field name="Reference">RR</field>
+        <field name="Value">RR8-SEL</field>
+      </fields>
+      <pins>
+        <pin num="1" name="V-COM" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+        <pin num="3" name="3" type="passive"/>
+        <pin num="4" name="4" type="passive"/>
+        <pin num="5" name="5" type="passive"/>
+        <pin num="6" name="6" type="passive"/>
+        <pin num="7" name="7" type="passive"/>
+        <pin num="8" name="8" type="passive"/>
+        <pin num="9" name="9" type="passive"/>
+        <pin num="10" name="G-COM" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="device" part="SPEAKER">
+      <description>Audio speaker, 2 pins, generic symbol</description>
+      <fields>
+        <field name="Reference">SP</field>
+        <field name="Value">SPEAKER</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="input"/>
+        <pin num="2" name="2" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="device" part="SWITCH_INV">
+      <description>inverseur</description>
+      <fields>
+        <field name="Reference">SW</field>
+        <field name="Value">SWITCH_INV</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+        <pin num="3" name="3" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="mylib" part="SW_B3F-10xx">
+      <description>Button</description>
+      <footprints>
+        <fp>Buttons_Switches_ThroughHole:SW_TH_Tactile_Omron_B3F-10xx</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">SW</field>
+        <field name="Value">SW_B3F-10xx</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="3" name="3" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="mylib" part="USB_MiniB">
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">USB_MiniB</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Vbus" type="input"/>
+        <pin num="2" name="D-" type="input"/>
+        <pin num="3" name="D+" type="input"/>
+        <pin num="4" name="ID" type="input"/>
+        <pin num="5" name="GND" type="input"/>
+        <pin num="6" name="FG" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="mylib" part="con_PicKit3">
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">con_PicKit3</field>
+        <field name="VCC">VCC</field>
+        <field name="Data+">D+</field>
+        <field name="Data-">D-</field>
+        <field name="Ground">GND</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~MCLR~" type="input"/>
+        <pin num="2" name="VDD" type="input"/>
+        <pin num="3" name="GND" type="input"/>
+        <pin num="4" name="ICSPDAT" type="input"/>
+        <pin num="5" name="ICSPCLK" type="input"/>
+        <pin num="6" name="NC" type="input"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="conn">
+      <uri>D:\Programs\KiCad\share\kicad\library\conn.lib</uri>
+    </library>
+    <library logical="device">
+      <uri>D:\Programs\KiCad\share\kicad\library\device.lib</uri>
+    </library>
+    <library logical="mylib">
+      <uri>D:\Programs\KiCad\share\kicad\library\mylib.lib</uri>
+    </library>
+    <library logical="PIC18F45K22_CPUBOARD-rescue">
+      <uri>D:\job\monozukuri\PCB\PIC18F45K22_v2.1\PIC18F45K22_CPUBOARD-rescue.lib</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="2" name="+5V">
+      <node ref="U1" pin="11"/>
+      <node ref="U1" pin="11"/>
+      <node ref="RR4" pin="1"/>
+      <node ref="J2" pin="2"/>
+      <node ref="U1" pin="32"/>
+      <node ref="R1" pin="1"/>
+      <node ref="U2" pin="15"/>
+      <node ref="R30" pin="1"/>
+      <node ref="C7" pin="1"/>
+      <node ref="C5" pin="1"/>
+      <node ref="C1" pin="1"/>
+      <node ref="C8" pin="2"/>
+      <node ref="F1" pin="2"/>
+      <node ref="C6" pin="1"/>
+      <node ref="C3" pin="1"/>
+      <node ref="CN3" pin="1"/>
+      <node ref="CN2" pin="1"/>
+      <node ref="CN1" pin="5"/>
+      <node ref="RR5" pin="1"/>
+      <node ref="CN4" pin="1"/>
+      <node ref="C2" pin="1"/>
+      <node ref="RR3" pin="1"/>
+    </net>
+    <net code="3" name="/RA6">
+      <node ref="CN4" pin="5"/>
+      <node ref="U1" pin="14"/>
+      <node ref="RA6" pin="2"/>
+    </net>
+    <net code="4" name="/RA5">
+      <node ref="RA5" pin="2"/>
+      <node ref="U1" pin="7"/>
+      <node ref="CN4" pin="4"/>
+    </net>
+    <net code="5" name="/RA4">
+      <node ref="U1" pin="6"/>
+      <node ref="CN4" pin="3"/>
+      <node ref="RA4" pin="2"/>
+    </net>
+    <net code="6" name="/RA3">
+      <node ref="RA3" pin="2"/>
+      <node ref="CN4" pin="2"/>
+      <node ref="U1" pin="5"/>
+    </net>
+    <net code="7" name="GND">
+      <node ref="RR5" pin="6"/>
+      <node ref="RR3" pin="10"/>
+      <node ref="C4" pin="2"/>
+      <node ref="C2" pin="2"/>
+      <node ref="CN2" pin="10"/>
+      <node ref="RR1" pin="1"/>
+      <node ref="RR2" pin="1"/>
+      <node ref="U1" pin="12"/>
+      <node ref="SW2" pin="1"/>
+      <node ref="U1" pin="31"/>
+      <node ref="CN3" pin="10"/>
+      <node ref="CN1" pin="1"/>
+      <node ref="U2" pin="16"/>
+      <node ref="CN4" pin="14"/>
+      <node ref="U2" pin="6"/>
+      <node ref="BZ1" pin="2"/>
+      <node ref="C8" pin="1"/>
+      <node ref="C7" pin="2"/>
+      <node ref="C6" pin="2"/>
+      <node ref="C3" pin="2"/>
+      <node ref="C1" pin="2"/>
+      <node ref="C5" pin="2"/>
+      <node ref="J2" pin="3"/>
+      <node ref="J1" pin="6"/>
+      <node ref="J1" pin="5"/>
+      <node ref="J1" pin="4"/>
+    </net>
+    <net code="8" name="Net-(BZ1-Pad1)">
+      <node ref="C9" pin="2"/>
+      <node ref="BZ1" pin="1"/>
+    </net>
+    <net code="9" name="/RA7">
+      <node ref="RA7" pin="2"/>
+      <node ref="CN4" pin="6"/>
+      <node ref="U1" pin="13"/>
+    </net>
+    <net code="10" name="/RB3">
+      <node ref="U1" pin="36"/>
+      <node ref="RB3" pin="2"/>
+      <node ref="CN4" pin="8"/>
+    </net>
+    <net code="11" name="/RB4">
+      <node ref="RB4" pin="2"/>
+      <node ref="U1" pin="37"/>
+      <node ref="CN4" pin="9"/>
+    </net>
+    <net code="12" name="/RB5">
+      <node ref="U1" pin="38"/>
+      <node ref="RB5" pin="2"/>
+      <node ref="CN4" pin="10"/>
+    </net>
+    <net code="13" name="/RD0">
+      <node ref="U1" pin="19"/>
+      <node ref="RD0" pin="2"/>
+      <node ref="CN4" pin="11"/>
+    </net>
+    <net code="14" name="/RD3">
+      <node ref="C9" pin="1"/>
+      <node ref="RD3" pin="2"/>
+      <node ref="U1" pin="22"/>
+      <node ref="CN4" pin="13"/>
+    </net>
+    <net code="15" name="/RD4">
+      <node ref="SW2" pin="3"/>
+      <node ref="CN4" pin="12"/>
+      <node ref="RD4" pin="2"/>
+      <node ref="U1" pin="27"/>
+    </net>
+    <net code="16" name="/RB2">
+      <node ref="U1" pin="35"/>
+      <node ref="RB2" pin="2"/>
+      <node ref="CN4" pin="7"/>
+    </net>
+    <net code="17" name="Net-(RA4-Pad1)">
+      <node ref="RR3" pin="3"/>
+      <node ref="RA4" pin="1"/>
+    </net>
+    <net code="18" name="Net-(RA3-Pad1)">
+      <node ref="RR3" pin="2"/>
+      <node ref="RA3" pin="1"/>
+    </net>
+    <net code="19" name="Net-(RA0-Pad1)">
+      <node ref="RA0" pin="1"/>
+      <node ref="RR4" pin="2"/>
+    </net>
+    <net code="20" name="Net-(RR4-Pad5)">
+      <node ref="RR4" pin="5"/>
+    </net>
+    <net code="21" name="Net-(RA1-Pad1)">
+      <node ref="RR4" pin="3"/>
+      <node ref="RA1" pin="1"/>
+    </net>
+    <net code="22" name="Net-(RA2-Pad1)">
+      <node ref="RR4" pin="4"/>
+      <node ref="RA2" pin="1"/>
+    </net>
+    <net code="23" name="Net-(RD2-Pad2)">
+      <node ref="RR2" pin="5"/>
+      <node ref="RD2" pin="2"/>
+    </net>
+    <net code="24" name="Net-(RB4-Pad1)">
+      <node ref="RB4" pin="1"/>
+      <node ref="RR3" pin="9"/>
+    </net>
+    <net code="25" name="Net-(RB3-Pad1)">
+      <node ref="RR3" pin="8"/>
+      <node ref="RB3" pin="1"/>
+    </net>
+    <net code="26" name="Net-(RB2-Pad1)">
+      <node ref="RB2" pin="1"/>
+      <node ref="RR3" pin="7"/>
+    </net>
+    <net code="27" name="Net-(RA7-Pad1)">
+      <node ref="RA7" pin="1"/>
+      <node ref="RR3" pin="6"/>
+    </net>
+    <net code="28" name="Net-(RA6-Pad1)">
+      <node ref="RR3" pin="5"/>
+      <node ref="RA6" pin="1"/>
+    </net>
+    <net code="29" name="Net-(RA5-Pad1)">
+      <node ref="RA5" pin="1"/>
+      <node ref="RR3" pin="4"/>
+    </net>
+    <net code="30" name="Net-(RB5-Pad1)">
+      <node ref="RR5" pin="2"/>
+      <node ref="RB5" pin="1"/>
+    </net>
+    <net code="31" name="Net-(RD0-Pad1)">
+      <node ref="RD0" pin="1"/>
+      <node ref="RR5" pin="3"/>
+    </net>
+    <net code="32" name="Net-(RD3-Pad1)">
+      <node ref="RR5" pin="4"/>
+      <node ref="RD3" pin="1"/>
+    </net>
+    <net code="33" name="Net-(RR5-Pad5)">
+      <node ref="RR5" pin="5"/>
+    </net>
+    <net code="34" name="Net-(RC2-Pad2)">
+      <node ref="RC2" pin="2"/>
+      <node ref="RR1" pin="4"/>
+    </net>
+    <net code="35" name="Net-(RC0-Pad2)">
+      <node ref="RR1" pin="2"/>
+      <node ref="RC0" pin="2"/>
+    </net>
+    <net code="36" name="Net-(RC1-Pad2)">
+      <node ref="RC1" pin="2"/>
+      <node ref="RR1" pin="3"/>
+    </net>
+    <net code="37" name="Net-(RC3-Pad2)">
+      <node ref="RC3" pin="2"/>
+      <node ref="RR1" pin="5"/>
+    </net>
+    <net code="38" name="Net-(RC4-Pad2)">
+      <node ref="RC4" pin="2"/>
+      <node ref="RR1" pin="6"/>
+    </net>
+    <net code="39" name="Net-(RC5-Pad2)">
+      <node ref="RC5" pin="2"/>
+      <node ref="RR1" pin="7"/>
+    </net>
+    <net code="40" name="Net-(RC6-Pad2)">
+      <node ref="RR1" pin="8"/>
+      <node ref="RC6" pin="2"/>
+    </net>
+    <net code="41" name="Net-(RC7-Pad2)">
+      <node ref="RR1" pin="9"/>
+      <node ref="RC7" pin="2"/>
+    </net>
+    <net code="42" name="Net-(RB1-Pad2)">
+      <node ref="RR2" pin="9"/>
+      <node ref="RB1" pin="2"/>
+    </net>
+    <net code="43" name="Net-(RB0-Pad2)">
+      <node ref="RR2" pin="8"/>
+      <node ref="RB0" pin="2"/>
+    </net>
+    <net code="44" name="Net-(RE1-Pad2)">
+      <node ref="RR2" pin="7"/>
+      <node ref="RE1" pin="2"/>
+    </net>
+    <net code="45" name="Net-(RE0-Pad2)">
+      <node ref="RR2" pin="6"/>
+      <node ref="RE0" pin="2"/>
+    </net>
+    <net code="46" name="Net-(RD5-Pad2)">
+      <node ref="RR2" pin="2"/>
+      <node ref="RD5" pin="2"/>
+    </net>
+    <net code="47" name="Net-(RD1-Pad2)">
+      <node ref="RD1" pin="2"/>
+      <node ref="RR2" pin="3"/>
+    </net>
+    <net code="48" name="Net-(RE2-Pad2)">
+      <node ref="RR2" pin="4"/>
+      <node ref="RE2" pin="2"/>
+    </net>
+    <net code="49" name="Net-(R30-Pad2)">
+      <node ref="R30" pin="2"/>
+      <node ref="RD4" pin="1"/>
+    </net>
+    <net code="50" name="Net-(U2-Pad1)">
+      <node ref="U2" pin="1"/>
+    </net>
+    <net code="51" name="/RE2">
+      <node ref="U1" pin="10"/>
+      <node ref="RE2" pin="1"/>
+      <node ref="CN2" pin="4"/>
+    </net>
+    <net code="52" name="Net-(J2-Pad1)">
+      <node ref="U1" pin="1"/>
+      <node ref="R1" pin="2"/>
+      <node ref="J2" pin="1"/>
+    </net>
+    <net code="53" name="/RC2">
+      <node ref="RC2" pin="1"/>
+      <node ref="CN3" pin="7"/>
+      <node ref="U1" pin="17"/>
+    </net>
+    <net code="54" name="/RC1">
+      <node ref="RC1" pin="1"/>
+      <node ref="CN3" pin="8"/>
+      <node ref="U1" pin="16"/>
+    </net>
+    <net code="55" name="/RC0">
+      <node ref="RC0" pin="1"/>
+      <node ref="U1" pin="15"/>
+      <node ref="CN3" pin="9"/>
+    </net>
+    <net code="56" name="/RA0">
+      <node ref="RA0" pin="2"/>
+      <node ref="U1" pin="2"/>
+      <node ref="CN1" pin="2"/>
+    </net>
+    <net code="57" name="/RA1">
+      <node ref="CN1" pin="3"/>
+      <node ref="RA1" pin="2"/>
+      <node ref="U1" pin="3"/>
+    </net>
+    <net code="58" name="/RA2">
+      <node ref="U1" pin="4"/>
+      <node ref="RA2" pin="2"/>
+      <node ref="CN1" pin="4"/>
+    </net>
+    <net code="59" name="/RC3">
+      <node ref="U1" pin="18"/>
+      <node ref="RC3" pin="1"/>
+      <node ref="CN3" pin="6"/>
+    </net>
+    <net code="60" name="/RE0">
+      <node ref="U1" pin="8"/>
+      <node ref="CN2" pin="6"/>
+      <node ref="RE0" pin="1"/>
+    </net>
+    <net code="61" name="/RD5">
+      <node ref="RD5" pin="1"/>
+      <node ref="U1" pin="28"/>
+      <node ref="CN2" pin="2"/>
+    </net>
+    <net code="62" name="/RD1">
+      <node ref="U1" pin="20"/>
+      <node ref="RD1" pin="1"/>
+      <node ref="CN2" pin="3"/>
+    </net>
+    <net code="63" name="/RD2">
+      <node ref="CN2" pin="5"/>
+      <node ref="U1" pin="21"/>
+      <node ref="RD2" pin="1"/>
+    </net>
+    <net code="64" name="Net-(U2-Pad2)">
+      <node ref="U2" pin="2"/>
+    </net>
+    <net code="65" name="/RE1">
+      <node ref="CN2" pin="7"/>
+      <node ref="U1" pin="9"/>
+      <node ref="RE1" pin="1"/>
+    </net>
+    <net code="66" name="/RB0">
+      <node ref="CN2" pin="8"/>
+      <node ref="U1" pin="33"/>
+      <node ref="RB0" pin="1"/>
+    </net>
+    <net code="67" name="/RB1">
+      <node ref="CN2" pin="9"/>
+      <node ref="U1" pin="34"/>
+      <node ref="RB1" pin="1"/>
+    </net>
+    <net code="68" name="/RC7">
+      <node ref="U1" pin="26"/>
+      <node ref="RC7" pin="1"/>
+      <node ref="CN3" pin="2"/>
+    </net>
+    <net code="69" name="/RC6">
+      <node ref="U1" pin="25"/>
+      <node ref="CN3" pin="3"/>
+      <node ref="RC6" pin="1"/>
+    </net>
+    <net code="70" name="/RC5">
+      <node ref="U1" pin="24"/>
+      <node ref="CN3" pin="4"/>
+      <node ref="RC5" pin="1"/>
+    </net>
+    <net code="71" name="/RC4">
+      <node ref="RC4" pin="1"/>
+      <node ref="CN3" pin="5"/>
+      <node ref="U1" pin="23"/>
+    </net>
+    <net code="72" name="Net-(F1-Pad1)">
+      <node ref="SW1" pin="1"/>
+      <node ref="F1" pin="1"/>
+    </net>
+    <net code="73" name="Net-(J1-Pad1)">
+      <node ref="SW1" pin="2"/>
+      <node ref="J1" pin="1"/>
+    </net>
+    <net code="74" name="Net-(SW1-Pad3)">
+      <node ref="SW1" pin="3"/>
+    </net>
+    <net code="75" name="Net-(C4-Pad1)">
+      <node ref="U2" pin="14"/>
+      <node ref="U2" pin="13"/>
+      <node ref="U2" pin="3"/>
+      <node ref="C4" pin="1"/>
+    </net>
+    <net code="76" name="/RX2">
+      <node ref="U1" pin="30"/>
+      <node ref="U2" pin="20"/>
+    </net>
+    <net code="77" name="Net-(J1-Pad2)">
+      <node ref="R2" pin="2"/>
+      <node ref="J1" pin="2"/>
+    </net>
+    <net code="78" name="Net-(J1-Pad3)">
+      <node ref="J1" pin="3"/>
+      <node ref="R3" pin="2"/>
+    </net>
+    <net code="79" name="Net-(R2-Pad1)">
+      <node ref="R2" pin="1"/>
+      <node ref="U2" pin="12"/>
+    </net>
+    <net code="80" name="Net-(J2-Pad4)">
+      <node ref="J2" pin="4"/>
+      <node ref="U1" pin="40"/>
+    </net>
+    <net code="81" name="Net-(J2-Pad5)">
+      <node ref="U1" pin="39"/>
+      <node ref="J2" pin="5"/>
+    </net>
+    <net code="82" name="Net-(J2-Pad6)">
+      <node ref="J2" pin="6"/>
+    </net>
+    <net code="83" name="Net-(R3-Pad1)">
+      <node ref="U2" pin="11"/>
+      <node ref="R3" pin="1"/>
+    </net>
+    <net code="84" name="/TX2">
+      <node ref="U2" pin="4"/>
+      <node ref="U1" pin="29"/>
+    </net>
+    <net code="85" name="Net-(U2-Pad5)">
+      <node ref="U2" pin="5"/>
+    </net>
+    <net code="86" name="Net-(U2-Pad7)">
+      <node ref="U2" pin="7"/>
+    </net>
+    <net code="87" name="Net-(U2-Pad8)">
+      <node ref="U2" pin="8"/>
+    </net>
+    <net code="88" name="Net-(U2-Pad9)">
+      <node ref="U2" pin="9"/>
+    </net>
+    <net code="89" name="Net-(U2-Pad10)">
+      <node ref="U2" pin="10"/>
+    </net>
+    <net code="90" name="Net-(U2-Pad17)">
+      <node ref="U2" pin="17"/>
+    </net>
+    <net code="91" name="Net-(U2-Pad18)">
+      <node ref="U2" pin="18"/>
+    </net>
+    <net code="92" name="Net-(U2-Pad19)">
+      <node ref="U2" pin="19"/>
+    </net>
+  </nets>
+</export>
