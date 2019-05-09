@@ -1,0 +1,3 @@
+(fp_lib_table
+  (lib (name jsd)(type KiCad)(uri ${KIPRJMOD}/modules/jsd.pretty)(options "")(descr ""))
+)

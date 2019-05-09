@@ -1,0 +1,142 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP B125C3x00-2200A
+D Silicon Bridge Rectifier, 125V Vrms, 2.2A If, pins=-AA+, SIL-package
+K rectifier acdc
+F https://diotec.com/tl_files/diotec/files/pdf/datasheets/b40c3700
+$ENDCMP
+#
+$CMP B125C5000-3x00A
+D Silicon Bridge Rectifier, 125V Vrms, 3.3A If, pins=-AA+, SIL-package
+K rectifier acdc
+F https://diotec.com/tl_files/diotec/files/pdf/datasheets/b40c500033
+$ENDCMP
+#
+$CMP B250C3x00-2200A
+D Silicon Bridge Rectifier, 250V Vrms, 2.2A If, pins=-AA+, SIL-package
+K rectifier acdc
+F https://diotec.com/tl_files/diotec/files/pdf/datasheets/b40c3700
+$ENDCMP
+#
+$CMP B250C5000-3x00A
+D Silicon Bridge Rectifier, 250V Vrms, 3.3A If, pins=-AA+, SIL-package
+K rectifier acdc
+F https://diotec.com/tl_files/diotec/files/pdf/datasheets/b40c500033
+$ENDCMP
+#
+$CMP B2B-XH
+D JST 2.5mm Pitch 3A Virtical
+K connector
+F ~
+$ENDCMP
+#
+$CMP B2P-VH
+D JST 3.9mm Pitch 10A Virtical
+K connector
+F ~
+$ENDCMP
+#
+$CMP B380C3x00-2200A
+D Silicon Bridge Rectifier, 380V Vrms, 2.2A If, pins=-AA+, SIL-package
+K rectifier acdc
+F https://diotec.com/tl_files/diotec/files/pdf/datasheets/b40c3700
+$ENDCMP
+#
+$CMP B380C5000-3x00A
+D Silicon Bridge Rectifier, 380V Vrms, 3.3A If, pins=-AA+, SIL-package
+K rectifier acdc
+F https://diotec.com/tl_files/diotec/files/pdf/datasheets/b40c500033
+$ENDCMP
+#
+$CMP B3B-XH
+D JST 2.5mm Pitch 3A Virtical
+K connector
+F ~
+$ENDCMP
+#
+$CMP B3P-VH
+D JST 3.9mm Pitch 10A Virtical
+K connector
+F ~
+$ENDCMP
+#
+$CMP B40C3x00-2200A
+D Silicon Bridge Rectifier, 40V Vrms, 2.2A If, pins=-AA+, SIL-package
+K rectifier acdc
+F https://diotec.com/tl_files/diotec/files/pdf/datasheets/b40c3700
+$ENDCMP
+#
+$CMP B4B-XH
+D JST 2.5mmPitch 3A Virtical
+K connector
+F ~
+$ENDCMP
+#
+$CMP B4P-VH
+D JST 3.96mm Pitch 10A Virtical
+K connector
+F ~
+$ENDCMP
+#
+$CMP B500C3x00-2200A
+D Silicon Bridge Rectifier, 500V Vrms, 2.2A If, pins=-AA+, SIL-package
+K rectifier acdc
+F https://diotec.com/tl_files/diotec/files/pdf/datasheets/b40c3700
+$ENDCMP
+#
+$CMP B500C5000-3x00A
+D Silicon Bridge Rectifier, 500V Vrms, 3.3A If, pins=-AA+, SIL-package
+K rectifier acdc
+F https://diotec.com/tl_files/diotec/files/pdf/datasheets/b40c500033
+$ENDCMP
+#
+$CMP B5B-XH
+D JST 2.5mm Pitch 3A Virtical
+$ENDCMP
+#
+$CMP B80C3x00-2200A
+D Silicon Bridge Rectifier, 80V Vrms, 2.2A If, pins=-AA+, SIL-package
+K rectifier acdc
+F https://diotec.com/tl_files/diotec/files/pdf/datasheets/b40c3700
+$ENDCMP
+#
+$CMP B80C5000-3x00A
+D Silicon Bridge Rectifier, 80V Vrms, 3.3A If, pins=-AA+, SIL-package
+K rectifier acdc
+F https://diotec.com/tl_files/diotec/files/pdf/datasheets/b40c500033
+$ENDCMP
+#
+$CMP Conn_01x02
+D Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)
+K connector
+F ~
+$ENDCMP
+#
+$CMP Conn_01x03
+D Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)
+K connector
+F ~
+$ENDCMP
+#
+$CMP Conn_01x04
+D Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)
+K connector
+F ~
+$ENDCMP
+#
+$CMP EP2-3L3SAb
+D Compact, Industry-Standard 2-pole relay, designed to switch 2A Signal Loads, Double-winding Latching
+K Miniature Relay Dual Pole DPDT Omron
+F http://omronfs.omron.com/en_US/ecb/products/pdf/en-g6s.pdf
+$ENDCMP
+#
+$CMP L298N
+D L298N, Dual Full Bridge Motor Driver, 4.8  46 V, 15-Pin MULTIWATT V
+$ENDCMP
+#
+$CMP RBA-406B
+D Schottoky  Bridge Rectifier, 60V Vrms, 4A If, SIP
+K rectifier acdc
+$ENDCMP
+#
+#End Doc Library

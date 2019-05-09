@@ -1,0 +1,8 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP L298N
+D L298N, Stepper Motor Controller, Dual Full Bridge Motor Driver, 4.8  46 V, 15-Pin MULTIWATT V
+F http://docs-emea.rs-online.com/webdocs/0060/0900766b80060c26.pdf
+$ENDCMP
+#
+#End Doc Library

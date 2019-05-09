@@ -1,0 +1,419 @@
+EESchema Schematic File Version 4
+LIBS:StepMotorDriveType1-v10-cache
+EELAYER 29 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 2
+Title "PIC18F45K22 Control Board"
+Date "2016-09-16"
+Rev "2.1"
+Comp "(c) JSD"
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L jsdlib:+5V #PWR016
+U 1 1 57582E00
+P 4350 5450
+F 0 "#PWR016" H 4350 5540 20  0001 C CNN
+F 1 "+5V" H 4350 5540 30  0000 C CNN
+F 2 "" H 4350 5450 60  0000 C CNN
+F 3 "" H 4350 5450 60  0000 C CNN
+	1    4350 5450
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5900 5450 5900 5500
+Wire Wire Line
+	5600 5500 5600 5450
+Connection ~ 5600 5450
+Wire Wire Line
+	5300 5500 5300 5450
+Connection ~ 5300 5450
+Wire Wire Line
+	5300 5700 5300 5750
+Connection ~ 5300 5750
+Wire Wire Line
+	5600 5700 5600 5750
+Connection ~ 5600 5750
+Wire Wire Line
+	5900 5700 5900 5750
+Wire Wire Line
+	5600 5450 5900 5450
+Wire Wire Line
+	5300 5450 5600 5450
+Wire Wire Line
+	4950 5750 5300 5750
+Wire Wire Line
+	5300 5750 5600 5750
+Wire Wire Line
+	5600 5750 5900 5750
+Wire Wire Line
+	5800 3400 5800 3500
+Connection ~ 5800 3500
+Wire Wire Line
+	5800 3500 5800 3600
+Connection ~ 5800 3600
+$Comp
+L power:+12V #PWR09
+U 1 1 5CD139AC
+P 9300 2800
+F 0 "#PWR09" H 9300 2650 50  0001 C CNN
+F 1 "+12V" H 9315 2973 50  0000 C CNN
+F 2 "" H 9300 2800 50  0001 C CNN
+F 3 "" H 9300 2800 50  0001 C CNN
+	1    9300 2800
+	0    1    1    0   
+$EndComp
+$Comp
+L jsdlib:C_Small C5
+U 1 1 575523E2
+P 5300 5600
+F 0 "C5" H 5310 5670 50  0000 L CNN
+F 1 "0.1u" H 5310 5520 50  0000 L CNN
+F 2 "jsd:C_Ceramic_P2.5" H 5300 5600 50  0001 C CNN
+F 3 "" H 5300 5600 50  0000 C CNN
+F 4 "積セラDIP 0.1uF 2.5mmピッチ" H 5300 5600 60  0001 C CNN "部品名"
+	1    5300 5600
+	1    0    0    -1  
+$EndComp
+$Comp
+L jsdlib:C_Small C6
+U 1 1 57582BEA
+P 5600 5600
+F 0 "C6" H 5610 5670 50  0000 L CNN
+F 1 "0.1u" H 5610 5520 50  0000 L CNN
+F 2 "jsd:C_Ceramic_P2.5" H 5600 5600 50  0001 C CNN
+F 3 "" H 5600 5600 50  0000 C CNN
+F 4 "積セラDIP 0.1uF 2.5mmピッチ" H 5600 5600 60  0001 C CNN "部品名"
+	1    5600 5600
+	1    0    0    -1  
+$EndComp
+$Comp
+L jsdlib:C_Small C7
+U 1 1 57582CAA
+P 5900 5600
+F 0 "C7" H 5910 5670 50  0000 L CNN
+F 1 "0.1u" H 5910 5520 50  0000 L CNN
+F 2 "jsd:C_Ceramic_P2.5" H 5900 5600 50  0001 C CNN
+F 3 "" H 5900 5600 50  0000 C CNN
+F 4 "積セラDIP 0.1uF 2.5mmピッチ" H 5900 5600 60  0001 C CNN "部品名"
+	1    5900 5600
+	1    0    0    -1  
+$EndComp
+$Comp
+L jsdlib:PIC18F45K22-CPUBRD-V2 U2
+U 1 1 5CD2BD61
+P 4500 2800
+F 0 "U2" H 4550 4247 60  0000 C CNN
+F 1 "PIC18F45K22-CPUBRD-V2" H 4550 4141 60  0000 C CNN
+F 2 "jsd:Pic18f45k22cpubrd" H 4500 2800 60  0001 C CNN
+F 3 "" H 4500 2800 60  0000 C CNN
+	1    4500 2800
+	1    0    0    -1  
+$EndComp
+$Comp
+L jsdlib:B2P-VH J1
+U 1 1 5CD0292A
+P 1200 5450
+F 0 "J1" H 1250 5650 50  0000 C CNN
+F 1 "B2P-VH" H 1250 5550 50  0000 C CNN
+F 2 "jsd:B2P-VH" H 1200 5450 50  0001 C CNN
+F 3 "~" H 1200 5450 50  0001 C CNN
+	1    1200 5450
+	-1   0    0    -1  
+$EndComp
+$Comp
+L jsdlib:+5V #PWR04
+U 1 1 5CD08EA8
+P 3000 1600
+F 0 "#PWR04" H 3000 1690 20  0001 C CNN
+F 1 "+5V" H 3000 1690 30  0000 C CNN
+F 2 "" H 3000 1600 60  0000 C CNN
+F 3 "" H 3000 1600 60  0000 C CNN
+	1    3000 1600
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+12V #PWR01
+U 1 1 5CD2BD71
+P 1400 5450
+F 0 "#PWR01" H 1400 5300 50  0001 C CNN
+F 1 "+12V" H 1415 5623 50  0000 C CNN
+F 2 "" H 1400 5450 50  0001 C CNN
+F 3 "" H 1400 5450 50  0001 C CNN
+	1    1400 5450
+	1    0    0    -1  
+$EndComp
+$Sheet
+S 5600 6550 1000 1000
+U 5CD2E0CC
+F0 "MotorDrive" 60
+F1 "MotorDrive.sch" 60
+$EndSheet
+Text GLabel 3300 3600 0    60   Input ~ 0
+INPUT_1-1
+Text GLabel 3300 3500 0    60   Input ~ 0
+INPUT_2-1
+Text GLabel 3300 2100 0    60   Input ~ 0
+ENABLE-1
+Text GLabel 3300 3400 0    60   Input ~ 0
+INPUT_3-1
+Text GLabel 3300 3300 0    60   Input ~ 0
+INPUT_4-1
+Text GLabel 3300 3200 0    60   Input ~ 0
+INPUT_1-2
+Text GLabel 3300 3100 0    60   Input ~ 0
+INPUT_2-2
+Text GLabel 3300 2200 0    60   Input ~ 0
+ENABLE-2
+Text GLabel 3300 3000 0    60   Input ~ 0
+INPUT_3-2
+Text GLabel 3300 2900 0    60   Input ~ 0
+INPUT_4-2
+$Comp
+L power:GND #PWR02
+U 1 1 5CDED06A
+P 1400 5550
+F 0 "#PWR02" H 1400 5300 50  0001 C CNN
+F 1 "GND" H 1405 5377 50  0000 C CNN
+F 2 "" H 1400 5550 50  0001 C CNN
+F 3 "" H 1400 5550 50  0001 C CNN
+	1    1400 5550
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR07
+U 1 1 5CDED0F9
+P 5800 3600
+F 0 "#PWR07" H 5800 3350 50  0001 C CNN
+F 1 "GND" H 5805 3427 50  0000 C CNN
+F 2 "" H 5800 3600 50  0001 C CNN
+F 3 "" H 5800 3600 50  0001 C CNN
+	1    5800 3600
+	1    0    0    -1  
+$EndComp
+Connection ~ 4350 5450
+$Comp
+L power:GND #PWR06
+U 1 1 5CDEE33F
+P 5900 5750
+F 0 "#PWR06" H 5900 5500 50  0001 C CNN
+F 1 "GND" H 5905 5577 50  0000 C CNN
+F 2 "" H 5900 5750 50  0001 C CNN
+F 3 "" H 5900 5750 50  0001 C CNN
+	1    5900 5750
+	1    0    0    -1  
+$EndComp
+$Comp
+L jsdlib:TD62083 U3
+U 1 1 5CDEF24C
+P 8900 2400
+F 0 "U3" H 8900 3065 50  0000 C CNN
+F 1 "TD62083" H 8900 2974 50  0000 C CNN
+F 2 "Package_DIP:DIP-18_W7.62mm" H 8900 2400 60  0001 C CNN
+F 3 "" H 8900 2400 60  0000 C CNN
+	1    8900 2400
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR08
+U 1 1 5CDF158B
+P 8500 2800
+F 0 "#PWR08" H 8500 2550 50  0001 C CNN
+F 1 "GND" H 8505 2627 50  0000 C CNN
+F 2 "" H 8500 2800 50  0001 C CNN
+F 3 "" H 8500 2800 50  0001 C CNN
+	1    8500 2800
+	1    0    0    -1  
+$EndComp
+Text GLabel 9550 2000 2    60   Input ~ 0
+DOUT1
+Text GLabel 9550 2100 2    60   Input ~ 0
+DOUT2
+Wire Wire Line
+	9300 2000 9550 2000
+Wire Wire Line
+	9300 2100 9550 2100
+Wire Wire Line
+	8000 2000 8500 2000
+Wire Wire Line
+	8000 2100 8500 2100
+Wire Wire Line
+	8000 2200 8500 2200
+Wire Wire Line
+	8000 2300 8500 2300
+Wire Wire Line
+	8000 2400 8500 2400
+Wire Wire Line
+	8000 2500 8500 2500
+Wire Wire Line
+	8000 2600 8500 2600
+Wire Wire Line
+	8000 2700 8500 2700
+Text Label 8000 2000 0    60   ~ 0
+OUT1
+Text Label 8000 2100 0    60   ~ 0
+OUT2
+Text Label 8000 2200 0    60   ~ 0
+OUT3
+Text Label 8000 2300 0    60   ~ 0
+OUT4
+Text Label 8000 2400 0    60   ~ 0
+OUT5
+Text Label 8000 2500 0    60   ~ 0
+OUT6
+Text Label 8000 2600 0    60   ~ 0
+OUT7
+Text Label 8000 2700 0    60   ~ 0
+OUT8
+Wire Wire Line
+	5800 2400 6300 2400
+Wire Wire Line
+	5800 2500 6300 2500
+Wire Wire Line
+	5800 2600 6300 2600
+Wire Wire Line
+	5800 2700 6300 2700
+Wire Wire Line
+	5800 2800 6300 2800
+Wire Wire Line
+	5800 2900 6300 2900
+Wire Wire Line
+	5800 3000 6300 3000
+Wire Wire Line
+	5800 3100 6300 3100
+Text Label 6300 2400 0    60   ~ 0
+OUT1
+Text Label 6300 2500 0    60   ~ 0
+OUT2
+Text Label 6300 2600 0    60   ~ 0
+OUT3
+Text Label 6300 2700 0    60   ~ 0
+OUT4
+Text Label 6300 2800 0    60   ~ 0
+OUT5
+Text Label 6300 2900 0    60   ~ 0
+OUT6
+Text Label 6300 3000 0    60   ~ 0
+OUT7
+Text Label 6300 3100 0    60   ~ 0
+OUT8
+$Comp
+L jsdlib:L7805CV-DG U1
+U 1 1 5CCEBC9F
+P 3750 5500
+F 0 "U1" H 3750 5815 50  0000 C CNN
+F 1 "L7805CV-DG" H 3750 5724 50  0000 C CNN
+F 2 "Package_TO_SOT_THT:TO-220-3_Vertical" H 3750 5500 50  0001 C CNN
+F 3 "" H 3750 5500 50  0000 C CNN
+	1    3750 5500
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:CP C1
+U 1 1 5CCEB1B3
+P 1950 5600
+F 0 "C1" H 1960 5670 50  0000 L CNN
+F 1 "220u" H 1960 5520 50  0000 L CNN
+F 2 "Capacitor_THT:CP_Radial_D8.0mm_P3.50mm" H 1950 5600 50  0001 C CNN
+F 3 "" H 1950 5600 50  0000 C CNN
+F 4 "220uF 35V 8x11.5mm pitch3.5mm" H 1950 5600 60  0001 C CNN "部品名"
+	1    1950 5600
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR03
+U 1 1 5CCED91F
+P 1950 5750
+F 0 "#PWR03" H 1950 5500 50  0001 C CNN
+F 1 "GND" H 1955 5577 50  0000 C CNN
+F 2 "" H 1950 5750 50  0001 C CNN
+F 3 "" H 1950 5750 50  0001 C CNN
+	1    1950 5750
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR05
+U 1 1 5CCEE0D9
+P 3750 5750
+F 0 "#PWR05" H 3750 5500 50  0001 C CNN
+F 1 "GND" H 3755 5577 50  0000 C CNN
+F 2 "" H 3750 5750 50  0001 C CNN
+F 3 "" H 3750 5750 50  0001 C CNN
+	1    3750 5750
+	1    0    0    -1  
+$EndComp
+Connection ~ 5900 5750
+Wire Wire Line
+	1400 5450 1950 5450
+Connection ~ 1400 5450
+Wire Wire Line
+	4150 5450 4350 5450
+$Comp
+L Diode:1N4004 D1
+U 1 1 5CCF6798
+P 3150 1600
+F 0 "D1" H 3150 1384 50  0000 C CNN
+F 1 "1N4004" H 3150 1475 50  0000 C CNN
+F 2 "Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal" H 3150 1425 50  0001 C CNN
+F 3 "http://www.vishay.com/docs/88503/1n4001.pdf" H 3150 1600 50  0001 C CNN
+	1    3150 1600
+	-1   0    0    1   
+$EndComp
+Text GLabel 9550 2200 2    60   Input ~ 0
+DOUT3
+Text GLabel 9550 2300 2    60   Input ~ 0
+DOUT4
+Wire Wire Line
+	9300 2200 9550 2200
+Wire Wire Line
+	9300 2300 9550 2300
+Connection ~ 1950 5450
+Connection ~ 1950 5750
+Wire Wire Line
+	1950 5750 2650 5750
+Wire Wire Line
+	1950 5450 3350 5450
+Wire Wire Line
+	4350 5450 5300 5450
+$Comp
+L Device:CP C2
+U 1 1 5CD4E01A
+P 2300 5600
+F 0 "C2" H 2310 5670 50  0000 L CNN
+F 1 "220u" H 2310 5520 50  0000 L CNN
+F 2 "Capacitor_THT:CP_Radial_D8.0mm_P3.50mm" H 2300 5600 50  0001 C CNN
+F 3 "" H 2300 5600 50  0000 C CNN
+F 4 "220uF 35V 8x11.5mm pitch3.5mm" H 2300 5600 60  0001 C CNN "部品名"
+	1    2300 5600
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:CP C3
+U 1 1 5CD4E981
+P 2650 5600
+F 0 "C3" H 2660 5670 50  0000 L CNN
+F 1 "220u" H 2660 5520 50  0000 L CNN
+F 2 "Capacitor_THT:CP_Radial_D8.0mm_P3.50mm" H 2650 5600 50  0001 C CNN
+F 3 "" H 2650 5600 50  0000 C CNN
+F 4 "220uF 35V 8x11.5mm pitch3.5mm" H 2650 5600 60  0001 C CNN "部品名"
+	1    2650 5600
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:CP C4
+U 1 1 5CD4F89E
+P 4950 5600
+F 0 "C4" H 4960 5670 50  0000 L CNN
+F 1 "220u" H 4960 5520 50  0000 L CNN
+F 2 "Capacitor_THT:CP_Radial_D8.0mm_P3.50mm" H 4950 5600 50  0001 C CNN
+F 3 "" H 4950 5600 50  0000 C CNN
+F 4 "220uF 35V 8x11.5mm pitch3.5mm" H 4950 5600 60  0001 C CNN "部品名"
+	1    4950 5600
+	1    0    0    -1  
+$EndComp
+$EndSCHEMATC

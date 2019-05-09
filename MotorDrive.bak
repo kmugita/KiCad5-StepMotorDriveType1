@@ -1,0 +1,777 @@
+EESchema Schematic File Version 4
+LIBS:StepMotorDriveType1-v10-cache
+EELAYER 29 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 2 2
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L jsdlib:+5V #PWR?
+U 1 1 5CD939E0
+P 2450 2000
+AR Path="/5CD939E0" Ref="#PWR?"  Part="1" 
+AR Path="/5CD2E0CC/5CD939E0" Ref="#PWR012"  Part="1" 
+F 0 "#PWR012" H 2450 2090 20  0001 C CNN
+F 1 "+5V" H 2450 2090 30  0000 C CNN
+F 2 "" H 2450 2000 60  0000 C CNN
+F 3 "" H 2450 2000 60  0000 C CNN
+	1    2450 2000
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:+BATT #PWR?
+U 1 1 5CD939E7
+P 2450 1800
+AR Path="/5CD939E7" Ref="#PWR?"  Part="1" 
+AR Path="/5CD2E0CC/5CD939E7" Ref="#PWR010"  Part="1" 
+F 0 "#PWR010" H 2450 1650 50  0001 C CNN
+F 1 "+BATT" H 2465 1973 50  0000 C CNN
+F 2 "" H 2450 1800 50  0001 C CNN
+F 3 "" H 2450 1800 50  0001 C CNN
+	1    2450 1800
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4150 2000 4650 2000
+Wire Wire Line
+	4650 2000 4650 2300
+Wire Wire Line
+	4650 2300 5500 2300
+Wire Wire Line
+	4150 1800 4700 1800
+Wire Wire Line
+	4700 1800 4700 2200
+Wire Wire Line
+	4700 2200 4900 2200
+Wire Wire Line
+	4150 2600 4650 2600
+Wire Wire Line
+	4650 2600 4650 2400
+Wire Wire Line
+	4150 2800 4700 2800
+Wire Wire Line
+	4700 2800 4700 2500
+Wire Wire Line
+	4900 1700 4900 2200
+Connection ~ 4900 2200
+Wire Wire Line
+	4900 2200 5750 2200
+Wire Wire Line
+	5500 1700 5500 2300
+Connection ~ 5500 2300
+Wire Wire Line
+	5500 2300 5750 2300
+Wire Wire Line
+	4900 3050 4900 2400
+Wire Wire Line
+	5500 3050 5500 2500
+Connection ~ 4900 2400
+Wire Wire Line
+	4900 2400 5750 2400
+Connection ~ 5500 2500
+Wire Wire Line
+	5500 2500 5750 2500
+Wire Wire Line
+	4650 2400 4900 2400
+Wire Wire Line
+	4700 2500 5500 2500
+Wire Wire Line
+	4150 2200 4200 2200
+Wire Wire Line
+	4150 3000 4200 3000
+Wire Wire Line
+	1850 2200 2450 2200
+Wire Wire Line
+	1850 2300 2450 2300
+Wire Wire Line
+	1850 2400 2200 2400
+Wire Wire Line
+	1850 2600 2450 2600
+Wire Wire Line
+	1850 2700 2450 2700
+$Comp
+L jsdlib:+5V #PWR?
+U 1 1 5CD93A63
+P 2500 4450
+AR Path="/5CD93A63" Ref="#PWR?"  Part="1" 
+AR Path="/5CD2E0CC/5CD93A63" Ref="#PWR018"  Part="1" 
+F 0 "#PWR018" H 2500 4540 20  0001 C CNN
+F 1 "+5V" H 2500 4540 30  0000 C CNN
+F 2 "" H 2500 4450 60  0000 C CNN
+F 3 "" H 2500 4450 60  0000 C CNN
+	1    2500 4450
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:+BATT #PWR?
+U 1 1 5CD93A6A
+P 2500 4250
+AR Path="/5CD93A6A" Ref="#PWR?"  Part="1" 
+AR Path="/5CD2E0CC/5CD93A6A" Ref="#PWR015"  Part="1" 
+F 0 "#PWR015" H 2500 4100 50  0001 C CNN
+F 1 "+BATT" H 2515 4423 50  0000 C CNN
+F 2 "" H 2500 4250 50  0001 C CNN
+F 3 "" H 2500 4250 50  0001 C CNN
+	1    2500 4250
+	1    0    0    -1  
+$EndComp
+$Comp
+L jsdlib:L298N U?
+U 1 1 5CD93A84
+P 2700 4250
+AR Path="/5CD93A84" Ref="U?"  Part="1" 
+AR Path="/5CD2E0CC/5CD93A84" Ref="U5"  Part="1" 
+F 0 "U5" H 3350 4515 50  0000 C CNN
+F 1 "L298N" H 3350 4424 50  0000 C CNN
+F 2 "jsd:Multiwatt15_V" H 3900 2750 50  0001 L CNN
+F 3 "" H 5150 4250 50  0001 L CNN
+F 4 "L298N, Dual Full Bridge Motor Driver, 4.8  46 V, 15-Pin MULTIWATT V" H 2600 2850 50  0001 L CNN "Description"
+F 5 "L298N" H 3300 4250 50  0001 L CNN "Manufacturer_Part_Number"
+	1    2700 4250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4200 4450 4700 4450
+Wire Wire Line
+	4700 4450 4700 4750
+Wire Wire Line
+	4700 4750 5550 4750
+Wire Wire Line
+	4200 4250 4750 4250
+Wire Wire Line
+	4750 4250 4750 4650
+Wire Wire Line
+	4750 4650 4950 4650
+Wire Wire Line
+	4200 5050 4700 5050
+Wire Wire Line
+	4700 5050 4700 4850
+Wire Wire Line
+	4200 5250 4750 5250
+Wire Wire Line
+	4750 5250 4750 4950
+Wire Wire Line
+	4950 4150 4950 4650
+Connection ~ 4950 4650
+Wire Wire Line
+	4950 4650 5800 4650
+Wire Wire Line
+	5550 4150 5550 4750
+Connection ~ 5550 4750
+Wire Wire Line
+	5550 4750 5800 4750
+Wire Wire Line
+	4950 5500 4950 4850
+Wire Wire Line
+	5550 5500 5550 4950
+Connection ~ 4950 4850
+Wire Wire Line
+	4950 4850 5800 4850
+Connection ~ 5550 4950
+Wire Wire Line
+	5550 4950 5800 4950
+Wire Wire Line
+	4700 4850 4950 4850
+Wire Wire Line
+	4750 4950 5550 4950
+Wire Wire Line
+	4200 4650 4250 4650
+Wire Wire Line
+	4200 5450 4250 5450
+Wire Wire Line
+	1900 4650 2500 4650
+Wire Wire Line
+	1900 4750 2500 4750
+Wire Wire Line
+	1900 4850 2250 4850
+Wire Wire Line
+	1900 5050 2500 5050
+Wire Wire Line
+	1900 5150 2500 5150
+$Comp
+L jsdlib:B4B-XH J?
+U 1 1 5CD93AE0
+P 5950 2300
+AR Path="/5CD93AE0" Ref="J?"  Part="1" 
+AR Path="/5CD2E0CC/5CD93AE0" Ref="J2"  Part="1" 
+F 0 "J2" H 6030 2292 50  0000 L CNN
+F 1 "B4B-XH" H 6030 2201 50  0000 L CNN
+F 2 "jsd:B4B-XH" H 5950 2300 50  0001 C CNN
+F 3 "~" H 5950 2300 50  0001 C CNN
+	1    5950 2300
+	1    0    0    -1  
+$EndComp
+$Comp
+L jsdlib:+5V #PWR?
+U 1 1 5CD93AE6
+P 2450 2000
+AR Path="/5CD93AE6" Ref="#PWR?"  Part="1" 
+AR Path="/5CD2E0CC/5CD93AE6" Ref="#PWR013"  Part="1" 
+F 0 "#PWR013" H 2450 2090 20  0001 C CNN
+F 1 "+5V" H 2450 2090 30  0000 C CNN
+F 2 "" H 2450 2000 60  0000 C CNN
+F 3 "" H 2450 2000 60  0000 C CNN
+	1    2450 2000
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:+BATT #PWR?
+U 1 1 5CD93AED
+P 2450 1800
+AR Path="/5CD93AED" Ref="#PWR?"  Part="1" 
+AR Path="/5CD2E0CC/5CD93AED" Ref="#PWR011"  Part="1" 
+F 0 "#PWR011" H 2450 1650 50  0001 C CNN
+F 1 "+BATT" H 2465 1973 50  0000 C CNN
+F 2 "" H 2450 1800 50  0001 C CNN
+F 3 "" H 2450 1800 50  0001 C CNN
+	1    2450 1800
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5CD93AF3
+P 4350 2200
+AR Path="/5CD93AF3" Ref="R?"  Part="1" 
+AR Path="/5CD2E0CC/5CD93AF3" Ref="R1"  Part="1" 
+F 0 "R1" V 4250 2200 50  0000 C CNN
+F 1 "R" V 4234 2200 50  0001 C CNN
+F 2 "Resistor_THT:R_Box_L13.0mm_W4.0mm_P9.00mm" V 4280 2200 50  0001 C CNN
+F 3 "~" H 4350 2200 50  0001 C CNN
+F 4 "0.47" V 4350 2200 50  0000 C CNN "抵抗値"
+F 5 "MPC78-0.47ohm" V 4350 2200 50  0001 C CNN "型番"
+	1    4350 2200
+	0    1    1    0   
+$EndComp
+$Comp
+L jsdlib:L298N U?
+U 1 1 5CD93B07
+P 2650 1800
+AR Path="/5CD93B07" Ref="U?"  Part="1" 
+AR Path="/5CD2E0CC/5CD93B07" Ref="U4"  Part="1" 
+F 0 "U4" H 3300 2065 50  0000 C CNN
+F 1 "L298N" H 3300 1974 50  0000 C CNN
+F 2 "jsd:Multiwatt15_V" H 3850 300 50  0001 L CNN
+F 3 "" H 5100 1800 50  0001 L CNN
+F 4 "L298N, Dual Full Bridge Motor Driver, 4.8  46 V, 15-Pin MULTIWATT V" H 2550 400 50  0001 L CNN "Description"
+F 5 "L298N" H 3250 1800 50  0001 L CNN "Manufacturer_Part_Number"
+	1    2650 1800
+	1    0    0    -1  
+$EndComp
+$Comp
+L jsdlib:RBA-406B D?
+U 1 1 5CD93B23
+P 5200 1700
+AR Path="/5CD93B23" Ref="D?"  Part="1" 
+AR Path="/5CD2E0CC/5CD93B23" Ref="D2"  Part="1" 
+F 0 "D2" V 5246 1356 50  0000 R CNN
+F 1 "RBA-406B" V 5155 1356 50  0000 R CNN
+F 2 "jsd:Diode_Bridge_RBA-406B" H 5350 1825 50  0001 L CNN
+F 3 "" H 5200 1700 50  0001 C CNN
+	1    5200 1700
+	0    -1   -1   0   
+$EndComp
+$Comp
+L jsdlib:RBA-406B D?
+U 1 1 5CD93B3B
+P 5200 3050
+AR Path="/5CD93B3B" Ref="D?"  Part="1" 
+AR Path="/5CD2E0CC/5CD93B3B" Ref="D3"  Part="1" 
+F 0 "D3" V 5246 2706 50  0000 R CNN
+F 1 "RBA-406B" V 5155 2706 50  0000 R CNN
+F 2 "jsd:Diode_Bridge_RBA-406B" H 5350 3175 50  0001 L CNN
+F 3 "" H 5200 3050 50  0001 C CNN
+	1    5200 3050
+	0    -1   -1   0   
+$EndComp
+$Comp
+L jsdlib:B4B-XH J?
+U 1 1 5CD93B63
+P 6000 4750
+AR Path="/5CD93B63" Ref="J?"  Part="1" 
+AR Path="/5CD2E0CC/5CD93B63" Ref="J3"  Part="1" 
+F 0 "J3" H 6080 4742 50  0000 L CNN
+F 1 "B4B-XH" H 6080 4651 50  0000 L CNN
+F 2 "jsd:B4B-XH" H 6000 4750 50  0001 C CNN
+F 3 "~" H 6000 4750 50  0001 C CNN
+	1    6000 4750
+	1    0    0    -1  
+$EndComp
+$Comp
+L jsdlib:+5V #PWR?
+U 1 1 5CD93B69
+P 2500 4450
+AR Path="/5CD93B69" Ref="#PWR?"  Part="1" 
+AR Path="/5CD2E0CC/5CD93B69" Ref="#PWR019"  Part="1" 
+F 0 "#PWR019" H 2500 4540 20  0001 C CNN
+F 1 "+5V" H 2500 4540 30  0000 C CNN
+F 2 "" H 2500 4450 60  0000 C CNN
+F 3 "" H 2500 4450 60  0000 C CNN
+	1    2500 4450
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:+BATT #PWR?
+U 1 1 5CD93B70
+P 2500 4250
+AR Path="/5CD93B70" Ref="#PWR?"  Part="1" 
+AR Path="/5CD2E0CC/5CD93B70" Ref="#PWR017"  Part="1" 
+F 0 "#PWR017" H 2500 4100 50  0001 C CNN
+F 1 "+BATT" H 2515 4423 50  0000 C CNN
+F 2 "" H 2500 4250 50  0001 C CNN
+F 3 "" H 2500 4250 50  0001 C CNN
+	1    2500 4250
+	1    0    0    -1  
+$EndComp
+$Comp
+L jsdlib:RBA-406B D?
+U 1 1 5CD93BA6
+P 5250 4150
+AR Path="/5CD93BA6" Ref="D?"  Part="1" 
+AR Path="/5CD2E0CC/5CD93BA6" Ref="D4"  Part="1" 
+F 0 "D4" V 5296 3806 50  0000 R CNN
+F 1 "RBA-406B" V 5205 3806 50  0000 R CNN
+F 2 "jsd:Diode_Bridge_RBA-406B" H 5400 4275 50  0001 L CNN
+F 3 "" H 5250 4150 50  0001 C CNN
+	1    5250 4150
+	0    -1   -1   0   
+$EndComp
+$Comp
+L jsdlib:RBA-406B D?
+U 1 1 5CD93BBE
+P 5250 5500
+AR Path="/5CD93BBE" Ref="D?"  Part="1" 
+AR Path="/5CD2E0CC/5CD93BBE" Ref="D5"  Part="1" 
+F 0 "D5" V 5296 5156 50  0000 R CNN
+F 1 "RBA-406B" V 5205 5156 50  0000 R CNN
+F 2 "jsd:Diode_Bridge_RBA-406B" H 5400 5625 50  0001 L CNN
+F 3 "" H 5250 5500 50  0001 C CNN
+	1    5250 5500
+	0    -1   -1   0   
+$EndComp
+Text GLabel 1850 2200 0    60   Input ~ 0
+INPUT_1-1
+Text GLabel 1850 2300 0    60   Input ~ 0
+INPUT_2-1
+Text GLabel 1850 2600 0    60   Input ~ 0
+INPUT_3-1
+Text GLabel 1850 2700 0    60   Input ~ 0
+INPUT_4-1
+Text GLabel 1900 4650 0    60   Input ~ 0
+INPUT_1-2
+Text GLabel 1900 4750 0    60   Input ~ 0
+INPUT_2-2
+Text GLabel 1900 5050 0    60   Input ~ 0
+INPUT_3-2
+Text GLabel 1900 5150 0    60   Input ~ 0
+INPUT_4-2
+Text GLabel 1850 2400 0    60   Input ~ 0
+ENABLE-1
+Text GLabel 1900 4850 0    60   Input ~ 0
+ENABLE-2
+Wire Wire Line
+	2200 2400 2200 2800
+Wire Wire Line
+	2200 2800 2450 2800
+Connection ~ 2200 2400
+Wire Wire Line
+	2200 2400 2450 2400
+Wire Wire Line
+	2250 4850 2250 5250
+Wire Wire Line
+	2250 5250 2500 5250
+Connection ~ 2250 4850
+Wire Wire Line
+	2250 4850 2500 4850
+$Comp
+L jsdlib:EP2-3L3SAb RL1
+U 1 1 5CDB67CF
+P 8600 2350
+F 0 "RL1" H 8600 3217 50  0000 C CNN
+F 1 "EP2-3L3SAb" H 8600 3126 50  0000 C CNN
+F 2 "jsd:EP2_H-BRIDGE" H 8350 1500 50  0001 L CNN
+F 3 "http://omronfs.omron.com/en_US/ecb/products/pdf/en-g6s.pdf" V 8650 1950 50  0001 C CNN
+	1    8600 2350
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+12V #PWR?
+U 1 1 5CDBE415
+P 8950 1850
+AR Path="/5CDBE415" Ref="#PWR?"  Part="1" 
+AR Path="/5CD2E0CC/5CDBE415" Ref="#PWR033"  Part="1" 
+F 0 "#PWR033" H 8950 1700 50  0001 C CNN
+F 1 "+12V" H 8965 2023 50  0000 C CNN
+F 2 "" H 8950 1850 50  0001 C CNN
+F 3 "" H 8950 1850 50  0001 C CNN
+	1    8950 1850
+	0    1    1    0   
+$EndComp
+$Comp
+L power:+12V #PWR?
+U 1 1 5CDCEBAC
+P 5200 2750
+AR Path="/5CDCEBAC" Ref="#PWR?"  Part="1" 
+AR Path="/5CD2E0CC/5CDCEBAC" Ref="#PWR027"  Part="1" 
+F 0 "#PWR027" H 5200 2600 50  0001 C CNN
+F 1 "+12V" H 5215 2923 50  0000 C CNN
+F 2 "" H 5200 2750 50  0001 C CNN
+F 3 "" H 5200 2750 50  0001 C CNN
+	1    5200 2750
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+12V #PWR?
+U 1 1 5CDD0023
+P 5250 3850
+AR Path="/5CDD0023" Ref="#PWR?"  Part="1" 
+AR Path="/5CD2E0CC/5CDD0023" Ref="#PWR029"  Part="1" 
+F 0 "#PWR029" H 5250 3700 50  0001 C CNN
+F 1 "+12V" H 5265 4023 50  0000 C CNN
+F 2 "" H 5250 3850 50  0001 C CNN
+F 3 "" H 5250 3850 50  0001 C CNN
+	1    5250 3850
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+12V #PWR?
+U 1 1 5CDD158D
+P 5200 1400
+AR Path="/5CDD158D" Ref="#PWR?"  Part="1" 
+AR Path="/5CD2E0CC/5CDD158D" Ref="#PWR025"  Part="1" 
+F 0 "#PWR025" H 5200 1250 50  0001 C CNN
+F 1 "+12V" H 5215 1573 50  0000 C CNN
+F 2 "" H 5200 1400 50  0001 C CNN
+F 3 "" H 5200 1400 50  0001 C CNN
+	1    5200 1400
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+12V #PWR?
+U 1 1 5CDD3531
+P 5250 5200
+AR Path="/5CDD3531" Ref="#PWR?"  Part="1" 
+AR Path="/5CD2E0CC/5CDD3531" Ref="#PWR031"  Part="1" 
+F 0 "#PWR031" H 5250 5050 50  0001 C CNN
+F 1 "+12V" H 5265 5373 50  0000 C CNN
+F 2 "" H 5250 5200 50  0001 C CNN
+F 3 "" H 5250 5200 50  0001 C CNN
+	1    5250 5200
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR026
+U 1 1 5CDDA168
+P 5200 2000
+F 0 "#PWR026" H 5200 1750 50  0001 C CNN
+F 1 "GND" H 5205 1827 50  0000 C CNN
+F 2 "" H 5200 2000 50  0001 C CNN
+F 3 "" H 5200 2000 50  0001 C CNN
+	1    5200 2000
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR030
+U 1 1 5CDDBCC5
+P 5250 4450
+F 0 "#PWR030" H 5250 4200 50  0001 C CNN
+F 1 "GND" H 5255 4277 50  0000 C CNN
+F 2 "" H 5250 4450 50  0001 C CNN
+F 3 "" H 5250 4450 50  0001 C CNN
+	1    5250 4450
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR032
+U 1 1 5CDDC39C
+P 5250 5800
+F 0 "#PWR032" H 5250 5550 50  0001 C CNN
+F 1 "GND" H 5255 5627 50  0000 C CNN
+F 2 "" H 5250 5800 50  0001 C CNN
+F 3 "" H 5250 5800 50  0001 C CNN
+	1    5250 5800
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR024
+U 1 1 5CDDD35A
+P 4550 5450
+F 0 "#PWR024" H 4550 5200 50  0001 C CNN
+F 1 "GND" V 4555 5322 50  0000 R CNN
+F 2 "" H 4550 5450 50  0001 C CNN
+F 3 "" H 4550 5450 50  0001 C CNN
+	1    4550 5450
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:GND #PWR023
+U 1 1 5CDDDD38
+P 4550 4650
+F 0 "#PWR023" H 4550 4400 50  0001 C CNN
+F 1 "GND" V 4555 4522 50  0000 R CNN
+F 2 "" H 4550 4650 50  0001 C CNN
+F 3 "" H 4550 4650 50  0001 C CNN
+	1    4550 4650
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:GND #PWR022
+U 1 1 5CDDE2D2
+P 4500 3000
+F 0 "#PWR022" H 4500 2750 50  0001 C CNN
+F 1 "GND" V 4505 2872 50  0000 R CNN
+F 2 "" H 4500 3000 50  0001 C CNN
+F 3 "" H 4500 3000 50  0001 C CNN
+	1    4500 3000
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:GND #PWR021
+U 1 1 5CDDE878
+P 4500 2200
+F 0 "#PWR021" H 4500 1950 50  0001 C CNN
+F 1 "GND" V 4505 2072 50  0000 R CNN
+F 2 "" H 4500 2200 50  0001 C CNN
+F 3 "" H 4500 2200 50  0001 C CNN
+	1    4500 2200
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:GND #PWR014
+U 1 1 5CDDFEE0
+P 2450 3000
+F 0 "#PWR014" H 2450 2750 50  0001 C CNN
+F 1 "GND" V 2455 2872 50  0000 R CNN
+F 2 "" H 2450 3000 50  0001 C CNN
+F 3 "" H 2450 3000 50  0001 C CNN
+	1    2450 3000
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR020
+U 1 1 5CDE1323
+P 2500 5450
+F 0 "#PWR020" H 2500 5200 50  0001 C CNN
+F 1 "GND" V 2505 5322 50  0000 R CNN
+F 2 "" H 2500 5450 50  0001 C CNN
+F 3 "" H 2500 5450 50  0001 C CNN
+	1    2500 5450
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR028
+U 1 1 5CDE33CD
+P 5200 3350
+F 0 "#PWR028" H 5200 3100 50  0001 C CNN
+F 1 "GND" V 5205 3222 50  0000 R CNN
+F 2 "" H 5200 3350 50  0001 C CNN
+F 3 "" H 5200 3350 50  0001 C CNN
+	1    5200 3350
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+12V #PWR?
+U 1 1 5CDE739A
+P 8950 2950
+AR Path="/5CDE739A" Ref="#PWR?"  Part="1" 
+AR Path="/5CD2E0CC/5CDE739A" Ref="#PWR034"  Part="1" 
+F 0 "#PWR034" H 8950 2800 50  0001 C CNN
+F 1 "+12V" H 8965 3123 50  0000 C CNN
+F 2 "" H 8950 2950 50  0001 C CNN
+F 3 "" H 8950 2950 50  0001 C CNN
+	1    8950 2950
+	0    1    1    0   
+$EndComp
+Text GLabel 7800 1850 0    60   Input ~ 0
+DOUT1
+Text GLabel 7800 2950 0    60   Input ~ 0
+DOUT2
+$Comp
+L jsdlib:B4P-VH J4
+U 1 1 5CDF4808
+P 10000 2300
+F 0 "J4" H 10080 2292 50  0000 L CNN
+F 1 "B4P-VH" H 10080 2201 50  0000 L CNN
+F 2 "jsd:B4P-VH" H 10000 2300 50  0001 C CNN
+F 3 "~" H 10000 2300 50  0001 C CNN
+	1    10000 2300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8250 1850 7800 1850
+Wire Wire Line
+	7800 2950 8250 2950
+Wire Wire Line
+	8250 2050 8100 2050
+Wire Wire Line
+	8100 2050 8100 1450
+Wire Wire Line
+	8100 1450 9450 1450
+Wire Wire Line
+	9450 1450 9450 2200
+Wire Wire Line
+	9450 2200 9800 2200
+Wire Wire Line
+	8950 2150 9400 2150
+Wire Wire Line
+	9400 2150 9400 2300
+Wire Wire Line
+	9400 2300 9800 2300
+Wire Wire Line
+	8950 2550 9400 2550
+Wire Wire Line
+	9400 2550 9400 2400
+Wire Wire Line
+	9400 2400 9800 2400
+Wire Wire Line
+	9800 2500 9450 2500
+Wire Wire Line
+	9450 2500 9450 3250
+Wire Wire Line
+	9450 3250 8100 3250
+Wire Wire Line
+	8100 3250 8100 2650
+Wire Wire Line
+	8100 2650 8250 2650
+$Comp
+L jsdlib:EP2-3L3SAb RL2
+U 1 1 5CE02247
+P 8600 4800
+F 0 "RL2" H 8600 5667 50  0000 C CNN
+F 1 "EP2-3L3SAb" H 8600 5576 50  0000 C CNN
+F 2 "jsd:EP2_H-BRIDGE" H 8350 3950 50  0001 L CNN
+F 3 "http://omronfs.omron.com/en_US/ecb/products/pdf/en-g6s.pdf" V 8650 4400 50  0001 C CNN
+	1    8600 4800
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+12V #PWR?
+U 1 1 5CE0224D
+P 8950 4300
+AR Path="/5CE0224D" Ref="#PWR?"  Part="1" 
+AR Path="/5CD2E0CC/5CE0224D" Ref="#PWR035"  Part="1" 
+F 0 "#PWR035" H 8950 4150 50  0001 C CNN
+F 1 "+12V" H 8965 4473 50  0000 C CNN
+F 2 "" H 8950 4300 50  0001 C CNN
+F 3 "" H 8950 4300 50  0001 C CNN
+	1    8950 4300
+	0    1    1    0   
+$EndComp
+$Comp
+L power:+12V #PWR?
+U 1 1 5CE02253
+P 8950 5400
+AR Path="/5CE02253" Ref="#PWR?"  Part="1" 
+AR Path="/5CD2E0CC/5CE02253" Ref="#PWR036"  Part="1" 
+F 0 "#PWR036" H 8950 5250 50  0001 C CNN
+F 1 "+12V" H 8965 5573 50  0000 C CNN
+F 2 "" H 8950 5400 50  0001 C CNN
+F 3 "" H 8950 5400 50  0001 C CNN
+	1    8950 5400
+	0    1    1    0   
+$EndComp
+Text GLabel 7800 4300 0    60   Input ~ 0
+DOUT3
+Text GLabel 7800 5400 0    60   Input ~ 0
+DOUT4
+$Comp
+L jsdlib:B4P-VH J5
+U 1 1 5CE0225B
+P 10000 4750
+F 0 "J5" H 10080 4742 50  0000 L CNN
+F 1 "B4P-VH" H 10080 4651 50  0000 L CNN
+F 2 "jsd:B4P-VH" H 10000 4750 50  0001 C CNN
+F 3 "~" H 10000 4750 50  0001 C CNN
+	1    10000 4750
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8250 4300 7800 4300
+Wire Wire Line
+	7800 5400 8250 5400
+Wire Wire Line
+	8250 4500 8100 4500
+Wire Wire Line
+	8100 4500 8100 3900
+Wire Wire Line
+	8100 3900 9450 3900
+Wire Wire Line
+	9450 3900 9450 4650
+Wire Wire Line
+	9450 4650 9800 4650
+Wire Wire Line
+	8950 4600 9400 4600
+Wire Wire Line
+	9400 4600 9400 4750
+Wire Wire Line
+	9400 4750 9800 4750
+Wire Wire Line
+	8950 5000 9400 5000
+Wire Wire Line
+	9400 5000 9400 4850
+Wire Wire Line
+	9400 4850 9800 4850
+Wire Wire Line
+	9800 4950 9450 4950
+Wire Wire Line
+	9450 4950 9450 5700
+Wire Wire Line
+	9450 5700 8100 5700
+Wire Wire Line
+	8100 5700 8100 5100
+Wire Wire Line
+	8100 5100 8250 5100
+$Comp
+L Device:R R?
+U 1 1 5CD45885
+P 4350 3000
+AR Path="/5CD45885" Ref="R?"  Part="1" 
+AR Path="/5CD2E0CC/5CD45885" Ref="R2"  Part="1" 
+F 0 "R2" V 4250 3000 50  0000 C CNN
+F 1 "R" V 4234 3000 50  0001 C CNN
+F 2 "Resistor_THT:R_Box_L13.0mm_W4.0mm_P9.00mm" V 4280 3000 50  0001 C CNN
+F 3 "~" H 4350 3000 50  0001 C CNN
+F 4 "0.47" V 4350 3000 50  0000 C CNN "抵抗値"
+F 5 "MPC78-0.47ohm" V 4350 3000 50  0001 C CNN "型番"
+	1    4350 3000
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5CD48354
+P 4400 4650
+AR Path="/5CD48354" Ref="R?"  Part="1" 
+AR Path="/5CD2E0CC/5CD48354" Ref="R3"  Part="1" 
+F 0 "R3" V 4300 4650 50  0000 C CNN
+F 1 "R" V 4284 4650 50  0001 C CNN
+F 2 "Resistor_THT:R_Box_L13.0mm_W4.0mm_P9.00mm" V 4330 4650 50  0001 C CNN
+F 3 "~" H 4400 4650 50  0001 C CNN
+F 4 "0.47" V 4400 4650 50  0000 C CNN "抵抗値"
+F 5 "MPC78-0.47ohm" V 4400 4650 50  0001 C CNN "型番"
+	1    4400 4650
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5CD4AC4D
+P 4400 5450
+AR Path="/5CD4AC4D" Ref="R?"  Part="1" 
+AR Path="/5CD2E0CC/5CD4AC4D" Ref="R4"  Part="1" 
+F 0 "R4" V 4300 5450 50  0000 C CNN
+F 1 "R" V 4284 5450 50  0001 C CNN
+F 2 "Resistor_THT:R_Box_L13.0mm_W4.0mm_P9.00mm" V 4330 5450 50  0001 C CNN
+F 3 "~" H 4400 5450 50  0001 C CNN
+F 4 "0.47" V 4400 5450 50  0000 C CNN "抵抗値"
+F 5 "MPC78-0.47ohm" V 4400 5450 50  0001 C CNN "型番"
+	1    4400 5450
+	0    1    1    0   
+$EndComp
+$EndSCHEMATC

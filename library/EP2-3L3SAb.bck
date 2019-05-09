@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP EP2-3L3SAb
+D Twin automotive relay
+K
+F http://akizukidenshi.com/download/ds/nec/EP1_EP2_datasheet.pdf
+$ENDCMP
+#
+#End Doc Library
